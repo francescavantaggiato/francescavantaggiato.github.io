@@ -2,18 +2,33 @@ project:
   type: website
   
 website: 
-  title: "my_web"
+  title: "Francesca Pia Vantaggiato"
   navbar:
     left:
-    - href: index.qmd
-      text: Home
-    - about.qmd
-    
-format: 
-  html: 
-    theme: cosmo
-    css: styles.scss
+      - href: index.qmd
+        text: Home
+      - href: Publications.qmd
+        text: Publications
+      - href: cv/index.qmd
+        text: CV
+      - href: Projects.qmd
+        text: Projects
+      - href: Teaching.qmd
+        text: Teaching
+    right:
+      - icon: github
+        href: https://github.com/francescavantaggiato
+        aria-label: GitHub
+      - icon: twitter
+        href: https://twitter.com/FPVantaggiato
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
+
+format:
+  html:
+    theme: styles.scss
     toc: true
+    
     
 editor: visual
 

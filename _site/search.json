@@ -1,16 +1,65 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Francesca’s website",
+    "objectID": "Publications/book chapters/Book_chapter1.html",
+    "href": "Publications/book chapters/Book_chapter1.html",
+    "title": "Francesca Pia Vantaggiato",
     "section": "",
-    "text": "This is the homepage of my new website created using Quarto."
+    "text": "+++ title = “Euro-Mediterranean Energy Relations” date = 2015-01-01T00:00:00 draft = false\n\nAuthors. Comma separated list, e.g. [\"Bob Smith\", \"David Jones\"].\nauthors = [“Francesca Pia Vantaggiato”]\n\n\nPublication type.\n\n\nLegend:\n\n\n0 = Uncategorized\n\n\n1 = Conference paper\n\n\n2 = Journal article\n\n\n3 = Manuscript\n\n\n4 = Report\n\n\n5 = Book\n\n\n6 = Book section\npublication_types = [“6”]\n\n\nPublication name and optional abbreviated version.\npublication = “In Regulation and Investments in Energy Markets - Solutions for the Mediterranean 1st edition, Rubino, A. et al (eds), Elsevier” publication_short = “”\n\n\nAbstract and optional shortened version.\nabstract = “”\n\n\nFeatured image thumbnail (optional)\nimage_preview = “”\n\n\nIs this a selected publication? (true/false)\nselected = false\n\n\nProjects (optional).\n\n\nAssociate this publication with one or more of your projects.\n\n\nSimply enter your project’s filename without extension.\n\n\nE.g. projects = [\"deep-learning\"] references content/project/deep-learning.md.\n\n\nOtherwise, set projects = [].\nprojects = []\n\n\nTags (optional).\n\n\nSet tags = [] for no tags, or use the form tags = [\"A Tag\", \"Another Tag\"] for one or more tags.\ntags = []\n\n\nLinks (optional).\n#url_pdf = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_preprint = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_code = “#” #url_dataset = “#” #url_project = “#” #url_slides = “#” #url_video = “#” #url_poster = “#” #url_source = “#”\n\n\nCustom links (optional).\n\n\nUncomment line below to enable. For multiple links, use the form [{...}, {...}, {...}].\nurl_custom = [{name = “Link”, url = “https://www.sciencedirect.com/book/9780128044360/regulation-and-investments-in-energy-markets”}]\n\n\nDigital Object Identifier (DOI)\n\n\ndoi = “10.1017/S0143814X18000156”\n\n\nDoes this page contain LaTeX math? (true/false)\nmath = false\n\n\nDoes this page require source code highlighting? (true/false)\nhighlight = false\n\n\nFeatured image\n\n\nPlace your image in the static/img/ folder and reference its filename below, e.g. image = \"example.jpg\".\n[header] image = “” caption = “”\n+++"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "Publications/book chapters/Book_chapter2.html",
+    "href": "Publications/book chapters/Book_chapter2.html",
+    "title": "Francesca Pia Vantaggiato",
     "section": "",
-    "text": "two words"
+    "text": "+++ title = “Mechanisms and outcomes of the EU external energy policy: an alternative approach” date = 2014-01-01T00:00:00 draft = false\n\nAuthors. Comma separated list, e.g. [\"Bob Smith\", \"David Jones\"].\nauthors = [“Francesca Pia Vantaggiato”]\n\n\nPublication type.\n\n\nLegend:\n\n\n0 = Uncategorized\n\n\n1 = Conference paper\n\n\n2 = Journal article\n\n\n3 = Manuscript\n\n\n4 = Report\n\n\n5 = Book\n\n\n6 = Book section\npublication_types = [“6”]\n\n\nPublication name and optional abbreviated version.\npublication = “In Regional Energy Initiatives, Cambini, C. and Rubino, A. (Routledge), Elsevier” publication_short = “”\n\n\nAbstract and optional shortened version.\nabstract = “”\n\n\nFeatured image thumbnail (optional)\nimage_preview = “”\n\n\nIs this a selected publication? (true/false)\nselected = false\n\n\nProjects (optional).\n\n\nAssociate this publication with one or more of your projects.\n\n\nSimply enter your project’s filename without extension.\n\n\nE.g. projects = [\"deep-learning\"] references content/project/deep-learning.md.\n\n\nOtherwise, set projects = [].\nprojects = []\n\n\nTags (optional).\n\n\nSet tags = [] for no tags, or use the form tags = [\"A Tag\", \"Another Tag\"] for one or more tags.\ntags = []\n\n\nLinks (optional).\n#url_pdf = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_preprint = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_code = “#” #url_dataset = “#” #url_project = “#” #url_slides = “#” #url_video = “#” #url_poster = “#” #url_source = “#”\n\n\nCustom links (optional).\n\n\nUncomment line below to enable. For multiple links, use the form [{...}, {...}, {...}].\nurl_custom = [{name = “Link”, url = “https://www.taylorfrancis.com/books/e/9781317685500”}]\n\n\nDigital Object Identifier (DOI)\n\n\ndoi = “10.1017/S0143814X18000156”\n\n\nDoes this page contain LaTeX math? (true/false)\nmath = false\n\n\nDoes this page require source code highlighting? (true/false)\nhighlight = false\n\n\nFeatured image\n\n\nPlace your image in the static/img/ folder and reference its filename below, e.g. image = \"example.jpg\".\n[header] image = “” caption = “”\n+++"
+  },
+  {
+    "objectID": "Publications/index.html",
+    "href": "Publications/index.html",
+    "title": "Francesca Pia Vantaggiato",
+    "section": "",
+    "text": "My research spans public policy, governance, public administration."
+  },
+  {
+    "objectID": "Publications/index.html#journal-articles",
+    "href": "Publications/index.html#journal-articles",
+    "title": "Francesca Pia Vantaggiato",
+    "section": "Journal articles",
+    "text": "Journal articles"
+  },
+  {
+    "objectID": "Publications/index.html#policy-reports",
+    "href": "Publications/index.html#policy-reports",
+    "title": "Francesca Pia Vantaggiato",
+    "section": "Policy reports",
+    "text": "Policy reports"
+  },
+  {
+    "objectID": "Publications/index.html#book-chapters",
+    "href": "Publications/index.html#book-chapters",
+    "title": "Francesca Pia Vantaggiato",
+    "section": "Book chapters",
+    "text": "Book chapters"
+  },
+  {
+    "objectID": "Publications/index.html#book-reviews",
+    "href": "Publications/index.html#book-reviews",
+    "title": "Francesca Pia Vantaggiato",
+    "section": "Book reviews",
+    "text": "Book reviews"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Francesca Vantaggiato",
+    "section": "",
+    "text": "Hello, and welcome to my website. My name is Francesca Vantaggiato. I am a Lecturer (Assistant Professor) in Public Policy in the Department of Political Economy at King's College London (UK).\nI study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue as they try to overcome collective action problems, influence policy formulation, and make decisions.\nMy research agenda comprises three main strands: climate adaptation, where I study how actors achieve coordination and compromise over costs and benefits; regulation, where I study how regulators influence the policy agenda; and the multilevel governance system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests."
+  },
+  {
+    "objectID": "cv/index.html",
+    "href": "cv/index.html",
+    "title": "Curriculum vitæ",
+    "section": "",
+    "text": "Download current CV"
   }
 ]
