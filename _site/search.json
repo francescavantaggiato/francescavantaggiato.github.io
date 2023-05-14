@@ -1,0 +1,16 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Francesca’s website",
+    "section": "",
+    "text": "This is the homepage of my new website created using Quarto."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "two words"
+  }
+]

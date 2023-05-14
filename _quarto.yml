@@ -1,0 +1,19 @@
+project:
+  type: website
+  
+website: 
+  title: "my_web"
+  navbar:
+    left:
+    - href: index.qmd
+      text: Home
+    - about.qmd
+    
+format: 
+  html: 
+    theme: cosmo
+    css: styles.scss
+    toc: true
+    
+editor: visual
+

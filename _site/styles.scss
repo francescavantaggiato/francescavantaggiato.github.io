@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,400&family=Flamenco:wght@300;400&display=swap');
+
+// Colors
+$white: #FFFFFF;
+$darkgray: #2C2C2C;
+$gray: #949799;
+$lightgray: #E5E5E5;
+$ocean: #05aabb;
+$rust: #bc5441;
+$ltcoral: #ffe1df;
+$raspberry: #872b49;
+$cream: #fcf9f4;
+$rose: #c27e97;
+
+
+// Base document colors
+$navbar-bg: $raspberry; // navbar
+$navbar-fg: $cream; // navbar foreground elements
+$navbar-hl: $ltcoral; // highlight color when hovering over navbar links
+$body-bg: $cream; // page background 
+$body-color: $darkgray; // page text 
+$footer-bg: $lightgray; // footer 
+$link-color: $rose; // hyperlinks 
+
+// Inline code
+$code-bg: $lightgray; // inline code background color
+$code-color: $darkgray; // inline code text color
+
+// Code blocks
+$code-block-bg: $white; // code block background color
+
+h1 {
+  color: $raspberry;
+}
+
+h2 {
+  color: $rose;
+}
+
+div.quarto-about-trestles .about-entity .about-link {
+    color: #fcf9f4 !important;
+    text-decoration: none;
+    border: none;
+    background-color: #c27e97;
+}
+
+.navbar-title {
+  font-family: Flamenco;
+}
+
+h1.title, .title.h1 {
+    font-family: Flamenco;
+    font-size: 2.5em;
+}

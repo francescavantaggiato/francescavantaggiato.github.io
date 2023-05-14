@@ -1,0 +1,7 @@
+---
+title: "Francesca's website"
+format: html
+editor: visual
+---
+
+This is the homepage of my new website created using Quarto.
