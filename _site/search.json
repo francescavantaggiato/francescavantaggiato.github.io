@@ -1,59 +1,31 @@
 [
   {
-    "objectID": "Publications/book chapters/Book_chapter1.html",
-    "href": "Publications/book chapters/Book_chapter1.html",
-    "title": "Francesca Pia Vantaggiato",
+    "objectID": "Research/articles/GEC_2023/index.html",
+    "href": "Research/articles/GEC_2023/index.html",
+    "title": "Creating adaptive social-ecological fit: The role of regional actors in the governance of Sea-level rise adaptation in San Francisco Bay",
     "section": "",
-    "text": "+++ title = “Euro-Mediterranean Energy Relations” date = 2015-01-01T00:00:00 draft = false\n\nAuthors. Comma separated list, e.g. [\"Bob Smith\", \"David Jones\"].\nauthors = [“Francesca Pia Vantaggiato”]\n\n\nPublication type.\n\n\nLegend:\n\n\n0 = Uncategorized\n\n\n1 = Conference paper\n\n\n2 = Journal article\n\n\n3 = Manuscript\n\n\n4 = Report\n\n\n5 = Book\n\n\n6 = Book section\npublication_types = [“6”]\n\n\nPublication name and optional abbreviated version.\npublication = “In Regulation and Investments in Energy Markets - Solutions for the Mediterranean 1st edition, Rubino, A. et al (eds), Elsevier” publication_short = “”\n\n\nAbstract and optional shortened version.\nabstract = “”\n\n\nFeatured image thumbnail (optional)\nimage_preview = “”\n\n\nIs this a selected publication? (true/false)\nselected = false\n\n\nProjects (optional).\n\n\nAssociate this publication with one or more of your projects.\n\n\nSimply enter your project’s filename without extension.\n\n\nE.g. projects = [\"deep-learning\"] references content/project/deep-learning.md.\n\n\nOtherwise, set projects = [].\nprojects = []\n\n\nTags (optional).\n\n\nSet tags = [] for no tags, or use the form tags = [\"A Tag\", \"Another Tag\"] for one or more tags.\ntags = []\n\n\nLinks (optional).\n#url_pdf = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_preprint = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_code = “#” #url_dataset = “#” #url_project = “#” #url_slides = “#” #url_video = “#” #url_poster = “#” #url_source = “#”\n\n\nCustom links (optional).\n\n\nUncomment line below to enable. For multiple links, use the form [{...}, {...}, {...}].\nurl_custom = [{name = “Link”, url = “https://www.sciencedirect.com/book/9780128044360/regulation-and-investments-in-energy-markets”}]\n\n\nDigital Object Identifier (DOI)\n\n\ndoi = “10.1017/S0143814X18000156”\n\n\nDoes this page contain LaTeX math? (true/false)\nmath = false\n\n\nDoes this page require source code highlighting? (true/false)\nhighlight = false\n\n\nFeatured image\n\n\nPlace your image in the static/img/ folder and reference its filename below, e.g. image = \"example.jpg\".\n[header] image = “” caption = “”\n+++"
+    "text": "Sea level rise is one of the most pressing climate adaptation issues around the world. Often, coastal communities are interdependent in their exposure to sea level rise – if one builds a seawall, it will push water to another – and would benefit from a coordinated adaptive response. The literature on social-ecological systems (SES) calls for actors placed at higher levels of governance (e.g. regional government in a metropolitan area) to improve coordination between local managers by serving as brokers. However, we lack empirical insight on how higher-level actors might improve coordination in practice, and theoretical development on the implications of their intermediation. To address these gaps, we study the case of adaptation to sea level rise in the San Francisco Bay Area. We build a social-ecological network of social actors and shoreline segments using original survey data and simulated scenarios of tidal and traffic interdependencies between shoreline segments. We perform a frequency analysis of network motifs that operationalize social-ecological ‘fit’ in the context of the Bay Area. We find that regional actors and non-governmental organizations increase social-ecological fit by providing intermediation between actors who work on different shoreline segments, whether interdependent or not. This shows that these actors provide adaptive social-ecological fit, future-proofing the Bay Area to current and future climate adaptation challenges."
   },
   {
-    "objectID": "Publications/book chapters/Book_chapter2.html",
-    "href": "Publications/book chapters/Book_chapter2.html",
-    "title": "Francesca Pia Vantaggiato",
+    "objectID": "Research/articles/GEC_2023/index.html#figure",
+    "href": "Research/articles/GEC_2023/index.html#figure",
+    "title": "Creating adaptive social-ecological fit: The role of regional actors in the governance of Sea-level rise adaptation in San Francisco Bay",
+    "section": "Figure",
+    "text": "Figure\nFigure 1: Motif distribution (inundation matrix)\n\n\n\nFigure 1: Motif distribution (inundation matrix)"
+  },
+  {
+    "objectID": "Research/index.html",
+    "href": "Research/index.html",
+    "title": "Research",
     "section": "",
-    "text": "+++ title = “Mechanisms and outcomes of the EU external energy policy: an alternative approach” date = 2014-01-01T00:00:00 draft = false\n\nAuthors. Comma separated list, e.g. [\"Bob Smith\", \"David Jones\"].\nauthors = [“Francesca Pia Vantaggiato”]\n\n\nPublication type.\n\n\nLegend:\n\n\n0 = Uncategorized\n\n\n1 = Conference paper\n\n\n2 = Journal article\n\n\n3 = Manuscript\n\n\n4 = Report\n\n\n5 = Book\n\n\n6 = Book section\npublication_types = [“6”]\n\n\nPublication name and optional abbreviated version.\npublication = “In Regional Energy Initiatives, Cambini, C. and Rubino, A. (Routledge), Elsevier” publication_short = “”\n\n\nAbstract and optional shortened version.\nabstract = “”\n\n\nFeatured image thumbnail (optional)\nimage_preview = “”\n\n\nIs this a selected publication? (true/false)\nselected = false\n\n\nProjects (optional).\n\n\nAssociate this publication with one or more of your projects.\n\n\nSimply enter your project’s filename without extension.\n\n\nE.g. projects = [\"deep-learning\"] references content/project/deep-learning.md.\n\n\nOtherwise, set projects = [].\nprojects = []\n\n\nTags (optional).\n\n\nSet tags = [] for no tags, or use the form tags = [\"A Tag\", \"Another Tag\"] for one or more tags.\ntags = []\n\n\nLinks (optional).\n#url_pdf = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_preprint = “http://eprints.soton.ac.uk/352095/1/Cushen-IMV2013.pdf” #url_code = “#” #url_dataset = “#” #url_project = “#” #url_slides = “#” #url_video = “#” #url_poster = “#” #url_source = “#”\n\n\nCustom links (optional).\n\n\nUncomment line below to enable. For multiple links, use the form [{...}, {...}, {...}].\nurl_custom = [{name = “Link”, url = “https://www.taylorfrancis.com/books/e/9781317685500”}]\n\n\nDigital Object Identifier (DOI)\n\n\ndoi = “10.1017/S0143814X18000156”\n\n\nDoes this page contain LaTeX math? (true/false)\nmath = false\n\n\nDoes this page require source code highlighting? (true/false)\nhighlight = false\n\n\nFeatured image\n\n\nPlace your image in the static/img/ folder and reference its filename below, e.g. image = \"example.jpg\".\n[header] image = “” caption = “”\n+++"
-  },
-  {
-    "objectID": "Publications/index.html",
-    "href": "Publications/index.html",
-    "title": "Francesca Pia Vantaggiato",
-    "section": "",
-    "text": "My research spans public policy, governance, public administration."
-  },
-  {
-    "objectID": "Publications/index.html#journal-articles",
-    "href": "Publications/index.html#journal-articles",
-    "title": "Francesca Pia Vantaggiato",
-    "section": "Journal articles",
-    "text": "Journal articles"
-  },
-  {
-    "objectID": "Publications/index.html#policy-reports",
-    "href": "Publications/index.html#policy-reports",
-    "title": "Francesca Pia Vantaggiato",
-    "section": "Policy reports",
-    "text": "Policy reports"
-  },
-  {
-    "objectID": "Publications/index.html#book-chapters",
-    "href": "Publications/index.html#book-chapters",
-    "title": "Francesca Pia Vantaggiato",
-    "section": "Book chapters",
-    "text": "Book chapters"
-  },
-  {
-    "objectID": "Publications/index.html#book-reviews",
-    "href": "Publications/index.html#book-reviews",
-    "title": "Francesca Pia Vantaggiato",
-    "section": "Book reviews",
-    "text": "Book reviews"
+    "text": "My research spans public policy, governance, public administration. My research agenda comprises three main strands: environmental governance, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; regulation, where I study how regulators influence the policy agenda; and the multilevel governance system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.\n\nEnvironmental governanceRegulationEuropean Union multilevel governance\n\n\nThis is my most recently developed and currently most central research agenda.\nPublications in this agenda include\n\n\nWe show the data in this tab.\n\n\nResearch on the EU."
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Francesca Vantaggiato",
     "section": "",
-    "text": "Hello, and welcome to my website. My name is Francesca Vantaggiato. I am a Lecturer (Assistant Professor) in Public Policy in the Department of Political Economy at King's College London (UK).\nI study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue as they try to overcome collective action problems, influence policy formulation, and make decisions.\nMy research agenda comprises three main strands: climate adaptation, where I study how actors achieve coordination and compromise over costs and benefits; regulation, where I study how regulators influence the policy agenda; and the multilevel governance system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests."
+    "text": "Hello, and welcome to my website. My name is Francesca Vantaggiato. I am a Lecturer (Assistant Professor) in Public Policy in the Department of Political Economy at King's College London (UK).\nI study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue as they try to overcome collective action problems, influence policy formulation, and make decisions."
   },
   {
     "objectID": "cv/index.html",

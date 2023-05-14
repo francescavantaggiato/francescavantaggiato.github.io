@@ -1,0 +1,18 @@
+---
+title: "European Regulatory Networks"
+date: 2022-12-01
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Fabrizio De Francesco
+      affiliation: University of Strathclyde, Glasgow (UK)
+links:
+    - name: Final version
+      url: https://www.elgaronline.com/display/book/9781800881112/ch05.xml
+      icon: fa-solid fa-scroll
+doi: https://doi.org/10.4337/9781800881112.ch05
+
+---
+
+

@@ -1,0 +1,29 @@
+---
+title: "Research"
+
+page-layout: full
+include-back-link: false
+toc-location: right
+---
+
+My research spans public policy, governance, public administration. My research agenda comprises three main strands: **environmental governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; **regulation**, where I study how regulators influence the policy agenda; and the **multilevel governance** system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.
+
+::: panel-tabset
+
+### Environmental governance
+
+This is my most recently developed and currently most central research agenda. 
+
+Publications in this agenda include
+
+
+### Regulation
+
+We show the data in this tab.
+
+
+### European Union multilevel governance
+
+Research on the EU. 
+
+:::
