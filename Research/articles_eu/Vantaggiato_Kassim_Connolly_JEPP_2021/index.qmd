@@ -1,6 +1,6 @@
 ---
 title: "Breaking out of silos: explaining cross-departmental interactions in two European bureaucracies" 
-subtitle: "2021, Journal of European Public Policy"
+subtitle: "2021, *Journal of European Public Policy*"
 date: 2021-10-01
 date-format: "MMMM, YYYY"
 author:
@@ -19,34 +19,29 @@ categories:
   - General Secretariat of the Council
   - blockmodels
   - networks
-
 ---
 
 ### Abstract
+
 The view that silos are endemic in organisations in general and the European Civil Service in particular has become increasingly widespread. Yet, silos are rarely investigated theoretically or empirically. What is a silo? What are the individual and organisational factors associated with silos? We propose a functionalist approach to silo definition and identification, which links individual and organisational tasks to expected intra-organisational interactions: we operationalise silos as clusters of employees lacking communication with other parts of the organisation, and analyse civil servants and departments as bipartite networks of communication using stochastic blockmodelling. We explore the existence of silos in two European bureaucracies, which differ in mission, size and workforce composition: the European Commission and the General Secretariat of the Council. We do not find evidence of silo-isation in either bureaucracy, but rather task-based patterns of interaction. Our approach can be extended to include other theoretical perspectives, e.g., socialisation effects.
 
 ### Key figures in the paper
 
-
 ![Figure 1: Blockmodel of administrative silos in the GSC](JEPP2021_silos_GSC.jpg)
-
-
-
-
 
 ### Citation
 
-```bibtex
+``` bibtex
 @article{Vantaggiato_Kassim_Connolly_JEPP2021,
-	author = {Francesca Pia Vantaggiato and Hussein Kassim and Sara Connolly},
-	doi = {10.1080/13501763.2020.1784253},
-	journal = {Journal of European Public Policy},
-	number = {9},
-	pages = {1432-1452},
-	publisher = {Routledge},
-	title = {Breaking out of silos: explaining cross-departmental interactions in two European bureaucracies},
-	volume = {28},
-	year = {2021},
-	bdsk-url-1 = {https://doi.org/10.1080/13501763.2020.1784253}}
+    author = {Francesca Pia Vantaggiato and Hussein Kassim and Sara Connolly},
+    doi = {10.1080/13501763.2020.1784253},
+    journal = {Journal of European Public Policy},
+    number = {9},
+    pages = {1432-1452},
+    publisher = {Routledge},
+    title = {Breaking out of silos: explaining cross-departmental interactions in two European bureaucracies},
+    volume = {28},
+    year = {2021},
+    bdsk-url-1 = {https://doi.org/10.1080/13501763.2020.1784253}}
 }
 ```

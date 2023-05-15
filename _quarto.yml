@@ -12,7 +12,7 @@ website:
         text: Research
       - href: cv/index.qmd
         text: CV
-      - href: Projects.qmd
+      - href: Projects/index.qmd
         text: Projects
       - href: Teaching/index.qmd
         text: Teaching

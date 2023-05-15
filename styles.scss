@@ -1,5 +1,7 @@
 /*-- scss:defaults --*/
 
+@import url('https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,400&family=Flamenco:wght@300;400&display=swap');
+
 // Colors
 $white: #FFFFFF;
 $darkgray: #2C2C2C;
@@ -8,19 +10,21 @@ $lightgray: #E5E5E5;
 $ocean: #05aabb;
 $rust: #bc5441;
 $ltcoral: #ffe1df;
-$darkgreen: #013220;
+$raspberry: #872b49;
 $cream: #fcf9f4;
-$darkblue: darkblue;
-$lavender: lavender;
-$darkpurple: #5c00e6
+$rose: #c27e97;
+$darkblue: #00008B;
+$darkgreen: #006400;
+
 
 // Base document colors
-$navbar-fg: $lavender; // navbar foreground elements
+$navbar-bg: $darkgreen; // navbar
+$navbar-fg: $cream; // navbar foreground elements
 $navbar-hl: $rust; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
 $body-color: $darkgray; // page text 
 $footer-bg: $lightgray; // footer 
-$link-color: $darkblue; // hyperlinks 
+$link-color: $rose; // hyperlinks 
 
 // Inline code
 $code-bg: $lightgray; // inline code background color
@@ -30,36 +34,29 @@ $code-color: $darkgray; // inline code text color
 $code-block-bg: $white; // code block background color
 
 h1 {
-  color: $darkgreen;
+  color: $raspberry;
 }
 
 h2 {
-  color: $darkblue;
+  color: $rose;
 }
 
 h3 {
-  color: $darkpurple;
-}
-
-h4 {
-  color: $darkgray;
+  color: $darkblue;
 }
 
 div.quarto-about-trestles .about-entity .about-link {
     color: #fcf9f4 !important;
-    text-decoration: lavender;
-    border: darkblue;
-    background-color: darkblue;
+    text-decoration: none;
+    border: #00008B;
+    background-color: #c27e97;
 }
 
+.navbar-title {
+  font-family: Bellota;
+}
 
-// FONTS  
-$font-family-sans-serif: "Georgia" !default;
-
-$headings-font-family: "Georgia" !default;
-$headings-font-weight: 500 !default;
-
-$navbar-font-family: "Work Sans" !default;
-$toc-font-family: "Work Sans" !default;
-$footer-font-family: "Work Sans" !default;
-
+h1.title, .title.h1 {
+    font-family: Bellota;
+    font-size: 2.0em;
+}
