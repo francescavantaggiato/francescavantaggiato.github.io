@@ -14,7 +14,7 @@ website:
         text: CV
       - href: Projects.qmd
         text: Projects
-      - href: Teaching.qmd
+      - href: Teaching/index.qmd
         text: Teaching
     right:
       - icon: github

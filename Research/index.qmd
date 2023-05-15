@@ -1,12 +1,32 @@
 ---
 title: "Research"
-
+listing:
+    id: articles
+    contents: "articles/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+    fields:
+      - title
+      - subtitle
+      - description
+      - image
+      - categories
+      - author
 page-layout: full
 include-back-link: false
 toc-location: right
 ---
 
-My research spans public policy, governance, public administration. My research agenda comprises three main strands: **environmental governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; **regulation**, where I study how regulators influence the policy agenda; and the **multilevel governance** system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.
+My research interests span public policy, governance, public administration. 
+My research agenda comprises three main strands: 
+
+* **environmental governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; 
+* **regulation**, where I study how regulators influence the policy agenda; and 
+* **multilevel governance** in the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests. 
+
+The tabs below list my publications and explain my main findings in each of these three fields.
 
 ::: panel-tabset
 
@@ -14,7 +34,12 @@ My research spans public policy, governance, public administration. My research 
 
 This is my most recently developed and currently most central research agenda. 
 
-Publications in this agenda include
+Publications include:
+
+:::{#articles}
+:::
+
+
 
 
 ### Regulation
@@ -27,3 +52,4 @@ We show the data in this tab.
 Research on the EU. 
 
 :::
+

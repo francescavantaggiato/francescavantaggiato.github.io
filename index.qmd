@@ -24,6 +24,5 @@ about:
 
 Hello, and welcome to my website. My name is Francesca Vantaggiato. I am a Lecturer (Assistant Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King\'s College London (UK).
 
-I study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue as they try to overcome collective action problems, influence policy formulation, and make decisions.
-
+I study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue, trying to influence policy formulation, and/or making decisions. 
 

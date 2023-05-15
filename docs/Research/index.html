@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -58,7 +60,37 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-description','listing-image','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
@@ -95,7 +127,7 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Teaching.qmd">
+    <a class="nav-link" href="../Teaching/index.html">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
@@ -125,11 +157,11 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    </div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SF Bay">SF Bay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate adaptation">climate adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate scenarios">climate scenarios <span class="quarto-category-count">(1)</span></div><div class="category" data-category="networks">networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="simulations">simulations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social-ecological systems">social-ecological systems <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<main class="content column-page" id="quarto-document-content">
+<main class="content column-page-left" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
@@ -148,13 +180,73 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>My research spans public policy, governance, public administration. My research agenda comprises three main strands: <strong>environmental governance</strong>, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; <strong>regulation</strong>, where I study how regulators influence the policy agenda; and the <strong>multilevel governance</strong> system of the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.</p>
+<p>My research interests span public policy, governance, public administration. My research agenda comprises three main strands:</p>
+<ul>
+<li><strong>environmental governance</strong>, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits;</li>
+<li><strong>regulation</strong>, where I study how regulators influence the policy agenda; and</li>
+<li><strong>multilevel governance</strong> in the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.</li>
+</ul>
+<p>The tabs below list my publications and explain my main findings in each of these three fields.</p>
 <div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Environmental governance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Regulation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">European Union multilevel governance</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>This is my most recently developed and currently most central research agenda.</p>
-<p>Publications in this agenda include</p>
+<p>Publications include:</p>
+<div id="listing-articles" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="climate adaptation,social-ecological systems,networks,SF Bay,climate scenarios,simulations" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1684113218725" data-listing-reading-time-sort="1.555">
+<div class="thumbnail">
+<p><a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html"> <img src="../Research/articles/Vantaggiato_et_al_GEC_2023/GEC_2023_img.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<h3 class="no-anchor listing-title">
+Creating adaptive social-ecological fit: The role of regional actors in the governance of Sea-level rise adaptation in San Francisco Bay
+</h3>
+<div class="listing-subtitle">
+2023, <em>Global Environmental Change</em>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('climate adaptation'); return false;">
+climate adaptation
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('social-ecological systems'); return false;">
+social-ecological systems
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('networks'); return false;">
+networks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('SF Bay'); return false;">
+SF Bay
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('climate scenarios'); return false;">
+climate scenarios
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('simulations'); return false;">
+simulations
+</div>
+</div>
+<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<div class="listing-description">
+Sea level rise is one of the most pressing climate adaptation issues around the world. Often, coastal communities are interdependent in their exposure to sea level rise – if…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<div class="listing-author">
+Francesca Pia Vantaggiato, Mark Lubell, Michelle Hummel, Aaron C. H. Chow, Alain Tcheukam Siwe
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
 <p>We show the data in this tab.</p>
@@ -164,6 +256,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
+
 
 
 

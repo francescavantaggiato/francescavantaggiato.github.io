@@ -11,11 +11,12 @@ $ltcoral: #ffe1df;
 $darkgreen: darkgreen;
 $cream: #fcf9f4;
 $darkblue: darkblue;
+$lavender: lavender;
 
 
 // Base document colors
 $navbar-bg: $darkgreen; // navbar
-$navbar-fg: $cream; // navbar foreground elements
+$navbar-fg: $lavender; // navbar foreground elements
 $navbar-hl: $ltcoral; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
 $body-color: $darkgray; // page text 
@@ -37,10 +38,14 @@ h2 {
   color: $darkblue;
 }
 
+h3 {
+  color: $darkblue;
+}
+
 div.quarto-about-trestles .about-entity .about-link {
     color: #fcf9f4 !important;
-    text-decoration: none;
-    border: none;
+    text-decoration: lavender;
+    border: darkblue;
     background-color: darkblue;
 }
 
@@ -49,7 +54,7 @@ div.quarto-about-trestles .about-entity .about-link {
 $font-family-sans-serif: "Georgia" !default;
 
 $headings-font-family: "Georgia" !default;
-$headings-font-weight: 600 !default;
+$headings-font-weight: 500 !default;
 
 $navbar-font-family: "Work Sans" !default;
 $toc-font-family: "Work Sans" !default;
