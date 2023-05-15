@@ -1,0 +1,42 @@
+---
+title: "Functional differentiation in governance networks for sea level rise adaptation in the San Francisco Bay Area."
+subtitle: "2022, *Social Networks*"
+date: 2022-02-21
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+  - name: Mark Lubell
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+categories: 
+  - climate adaptation
+  - sea level rise
+  - networks
+  - SF Bay
+  - Affiliation Random Graph model
+---
+
+### Abstract
+
+Climate change governance networks help actors overcome collective action problems by building social capital. The literature studies these networks as embodying a single underlying social problem: coordination or cooperation. This approach overlooks actor heterogeneity and cannot account for the empirical coexistence of different types of social capital. We contend that climate change governance networks consist of functionally differentiated communities of actors who build bonding or bridging social capital depending on their characteristics and goals. We test these claims with an Affiliation Graph Model (AGM) in the empirical case of adaptation to sea level rise in the San Francisco Bay Area, using original data collected in 2018. We distinguish three social processes: ‘leadership/brokerage’, ‘translation’, and ‘following’. Further research on different combinations of social capital across different networks is warranted.
+
+### Key figure from the paper
+
+![Figure 1: Layers of the governance network for sea level rise in SF Bay](SN_2022.jpg)
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_Lubell_SocNet2021,
+	author = {Francesca Pia Vantaggiato and Mark Lubell},
+	date-modified = {2022-09-30 11:40:23 +0100},
+	journal = {Social Networks},
+	title = {Functional differentiation in governance networks for sea level rise adaptation in the San Francisco Bay Area.},
+	volume = {Early View},
+	year = {2022}}
+```
+
+

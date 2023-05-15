@@ -1,27 +1,21 @@
 ---
 title: ""
-
 about:
-
   template: trestles
-
   image: fpv_pic.jpg
-
   links:
-
-    - icon: twitter
-      text: twitter
-      href: https://twitter.com/FPVantaggiato
-    - icon: github
-      text: Github
-      href: https://github.com/francescavantaggiato
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
+    - icon: google-scholar
+      text: Google Scholar
+      href: https://scholar.google.com/citations?user=X_ur-ZYAAAAJ&hl=en
+    - icon: envelope
+      text: E-mail
+      href: francesca.vantaggiato@kcl.ac.uk
+      
+page-layout: full
 ---
 
-Hello, and welcome to my website. My name is Francesca Vantaggiato. I am a Lecturer (Assistant Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King's College London (UK).
+Hello, and welcome to my website. My name is **Francesca Vantaggiato**. I am a Lecturer (Assistant Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King's College London (UK).
 
 I study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue, trying to influence policy formulation, and/or making decisions.
 
-I am interested in questions concerning social processes and mechanisms, collective action and social capital. I am particularly interested in answering these questions from the perspective of bureaucrats and policy-makers. In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.
+I am interested in research questions concerning social processes and mechanisms, collective action and social capital. I am particularly interested in answering these questions from the perspective of bureaucrats and policy-makers. In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.

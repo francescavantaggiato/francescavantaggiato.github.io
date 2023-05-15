@@ -1,0 +1,42 @@
+---
+title: "The benefits of specialized knowledge in polycentric governance systems."
+subtitle: "2022, *Policy Studies Journal*"
+date: 2022-01-12
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+  - name: Mark Lubell
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+categories: 
+  - climate adaptation
+  - sea level rise
+  - policy forums
+  - SF Bay
+  - knowledge
+  - survey
+---
+
+### Abstract
+
+Policy forums bring individual actors together to deliberate on specific policy issues. The literature found that actors' perceptions of forum performance depend on both their individual characteristics (goals, expertise, resources) and forum processes (trust, learning, beliefs). However, we do not know how different combinations of actors, embodying different types of knowledge or expertise, relate to forum performance. We distinguish between policy and institutional specialization. Forum participants can be policy specialists, who are experts on the policy issue, and/or institutional specialists, who are expert of the policy process in the governance system. The former excel at problem definition and facilitation; the latter enable inclusivity. We surmise that higher proportions of specialized actors positively affect the group's perceptions of forum performance in terms of both process and outcomes, particularly in high conflict forums. We test this claim using survey data on 55 policy forums working on adaptation to sea level rise in the San Francisco Bay Area, collected in summer 2018. The empirical findings lend support to our hypothesis as concerns policy specialists but not as concerns institutional specialists. Further research should devote more effort to study how actor composition affects forum performance.
+
+### Key figure from the paper
+
+![Figure 1: Perceptions of cooperation across policy forums in SF Bay](VL_PSJ2022.jpg)
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_Lubell_PSJ_2021,
+    author = {Francesca Pia Vantaggiato and Mark Lubell},
+    journal = {Policy Studies Journal},
+    title = {The benefits of specialized knowledge in polycentric governance.},
+    volume = {50},
+    number = {4},
+    pages = {849-876},
+    year = {2022}}
+```

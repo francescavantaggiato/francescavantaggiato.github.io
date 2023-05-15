@@ -1,0 +1,38 @@
+---
+title: "Networks as First Best? Network Entrepreneurship and Venue Shifting in the Establishment of the Network of Euro–Mediterranean Energy Regulators" 
+subtitle: "2019, *Journal of Common Market Studies*"
+date: 2019-08-30
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+categories: 
+  - regulatory networks
+  - collaboration
+  - Euro-Mediterranean
+  - energy
+  - multilevel governance
+---
+
+### Abstract
+
+Regulators often play a leading role in establishing their informal networks yet regulatory networks are usually considered a second-best instrument of policy integration. They have no decision-making powers and unclear policy impact. Why then do regulators initiate networks? The article shows that regulators form networks to shift the venue of policy discussion from a formal setting, dominated by policy-makers, to an informal one, where they share agenda-setting power with their peers only. Regulators forming networks are network entrepreneurs, for whom the establishment of the network is a policy goal in itself. Bolstered by previous positive networking experiences, network entrepreneurs consider networks the best instrument for influencing policy. The article analyses the empirical case of the network of energy regulators of the Euro–Mediterranean (MedReg, established in 2006) using elite interviews with 20 stakeholders. The findings hold implications for our understanding of informal regulatory collaboration in the EU and beyond.
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_JCMS_2019,
+	author = {Francesca Pia Vantaggiato},
+	doi = {10.1111/jcms.12956},
+	journal = {JCMS: Journal of Common Market Studies},
+	keywords = {regulatory networks, entrepreneurship, venue shifting, informal governance, energy},
+	number = {3},
+	pages = {654-671},
+	title = {Networks as First Best? Network Entrepreneurship and Venue Shifting in the Establishment of the Network of {Euro--Mediterranean} Energy Regulators},
+	volume = {58},
+	year = {2020},
+	bdsk-url-1 = {https://doi.org/10.1111/jcms.12956}}
+}
+```
+

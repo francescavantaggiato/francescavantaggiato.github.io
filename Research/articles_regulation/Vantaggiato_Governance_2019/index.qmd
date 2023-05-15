@@ -1,0 +1,37 @@
+---
+title: "Regulatory relationships across levels of multilevel governance systems: From collaboration to competition" 
+subtitle: "2019, *Governance*"
+date: 2019-04-14
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+categories: 
+  - regulatory networks
+  - collaboration
+  - competition
+  - energy
+  - multilevel governance
+---
+
+### Abstract
+
+The European Union and the United States are paradigmatic examples of multilevel governance systems that are also regulatory states. In both settings, informal networks of regulators preceded and existed alongside supranational (federal) regulatory agencies. The literature understood their rationale as preparatory to the creation of higher level agencies. This approach, however, cannot explain why informal regulatory networks still exist, years after the establishment of higher level agencies. What explains the persistence of informal regulatory networks? The argument of this article is that in multilevel governance systems, the relationship between regulatory networks and the supranational level of governance is coevolutionary and embodies struggles for autonomy and authority: as the multilevel governance system consolidates, the character of this relationship evolves from collaborative to competitive. The argument relies on a comparative historical analysis of two voluntary networks of energy regulators from the European Union and the United States, based on 27 interviews and archival research.
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_Governance_2019,
+    author = {Francesca Pia Vantaggiato},
+    doi = {10.1111/gove.12409},
+    journal = {Governance},
+    number = {1},
+    pages = {173-189},
+    title = {Regulatory relationships across levels of multilevel governance systems: From collaboration to competition},
+    volume = {33},
+    year = {2020},
+    bdsk-url-1 = {https://doi.org/10.1111/gove.12409}}
+
+}
+```

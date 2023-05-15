@@ -15,12 +15,14 @@ $cream: #fcf9f4;
 $rose: #c27e97;
 $darkblue: #00008B;
 $darkgreen: #006400;
+$lavender: #E6E6FA;
+
 
 
 // Base document colors
 $navbar-bg: $darkgreen; // navbar
 $navbar-fg: $cream; // navbar foreground elements
-$navbar-hl: $rust; // highlight color when hovering over navbar links
+$navbar-hl: $rose; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
 $body-color: $darkgray; // page text 
 $footer-bg: $lightgray; // footer 
@@ -59,4 +61,10 @@ div.quarto-about-trestles .about-entity .about-link {
 h1.title, .title.h1 {
     font-family: Bellota;
     font-size: 2.0em;
+}
+
+.title {
+  font-size: 50px;
+  color: darkblue;
+  font-family: Bellota;
 }

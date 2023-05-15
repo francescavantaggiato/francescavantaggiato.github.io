@@ -20,6 +20,7 @@ listing:
     categories: true
     type: default
 page-layout: full
+title-block-banner: "#E6E6FA"
 include-back-link: false
 toc-location: right
 ---
@@ -33,26 +34,26 @@ My research interests span public policy, governance, public administration. My 
 The tabs below list some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.
 
 ::: panel-tabset
-
 ### Environmental governance
 
 This is my most recently developed and currently core research agenda. I am interested in cases where different kinds of policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. My research in this area is shaped by the work I have done in collaboration with Prof Mark Lubell (University of California, Davis) while working as a postdoc at the [Center for Environmental Policy and Behavior](https://environmentalpolicy.ucdavis.edu/) (CEPB), which was focused on how polycentric governance systems respond to the emergence of new collective action problems.
-
 
 ::: {#articles_envgov}
 :::
 
 ### Regulation
 
-I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks.
+I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks. Several publications have resulted from that dissertation. Alongside my PhD, I did some research on how regulatory agencies use expertise in their decision-making depending on how politicised they are.
 
 ::: {#articles_regulation}
 :::
 
 ### European Union institutions
 
-During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof. Hussein Kassim. That involvement has led to publications focused on EU bureaucrats and their behaviour within the organisation.
+During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof. Hussein Kassim, and others. That involvement has led to publications focused on EU bureaucrats and their behaviour within their organisations.
+
 
 ::: {#articles_eu}
 :::
+
 :::

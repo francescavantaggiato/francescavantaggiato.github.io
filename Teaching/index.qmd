@@ -1,6 +1,7 @@
 ---
 title: "Teaching"
 
+title-block-banner: "#E6E6FA"
 page-layout: full
 include-back-link: false
 toc-location: right
@@ -17,20 +18,19 @@ At graduate level, I teach:
 -   Comparative Public Policy, one of the core modules of the Masters in Public Policy
 -   Climate policy and the energy transition, an optional module for Masters students in Public Policy and Political Economy.
 
-In the tabs below I summarize how I go about teaching these things. 
+In the tabs below I summarize how I go about teaching these things.
 
 ::: panel-tabset
-
 ### Environmental policy and governance
 
-The 3rd year undergraduate **Environmental Governance** module I teach at King's has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power & justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of governance processes, and how the notion of 'leaving the politics at the door' is, at best, hypocritical. Soon in its fourth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year. 
+The 3rd year undergraduate **Environmental Governance** module I teach at King's has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power & justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of governance processes, and how the notion of 'leaving the politics at the door' is, at best, hypocritical. Soon in its fourth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year.
 
-- In connection with this module, I have created a Shiny app that represents an introduction to social network analysis and the way it's used in environmental governance studies. The app is called [VisualGov](https://fpvdpe.shinyapps.io/visual_gov/) and it is currently in development. 
+-   In connection with this module, I have created a Shiny app that represents an introduction to social network analysis and the way it's used in environmental governance studies. The app is called [VisualGov](https://fpvdpe.shinyapps.io/visual_gov/) and it is currently in development.
 
 The MA level **Climate policy and the energy transition** module I co-convene with [Tomas Maltby](https://scholar.google.com/citations?user=1ZMuxKEAAAAJ&hl=en) at King's is a policy-focused module stemming from the realization that climate policy and energy policy are becoming the same policy topic. It will be offered for the first time in 2023/2024.
 
 ### Comparative Public Policy
 
-This is one of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the good ol' methods of agreement and difference.  
+This is one of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the good ol' methods of agreement and difference.
 
 :::

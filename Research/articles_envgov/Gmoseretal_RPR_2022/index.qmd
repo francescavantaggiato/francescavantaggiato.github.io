@@ -1,0 +1,51 @@
+---
+title: "An item response approach to sea‐level rise policy preferences in a nascent subsystem."
+subtitle: "2022, *Review of Policy Research*"
+date: 2022-12-21
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Kyra Gmoser-Daskalakis
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+  - name: Tyler Scott
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+  - name: Mark Lubell
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories: 
+  - climate adaptation
+  - networks
+  - SF Bay
+  - sea level rise
+  - IRT
+---
+
+### Abstract
+
+Sea-level rise is a "nascent subsystem" with policy actors actively developing initial policy preferences through participation across multiple policy forums in a polycentric system. This paper uses item-response models to empirically analyze how actors, perceived problems, and preferred policy solutions are related in a latent "policy space". We focus on California's San Francisco Bay region, where in the last decade, sea-level rise emerged to become one of the most salient climate adaptation issues. We find that actors and policy preferences are arranged in a two-dimensional space, with highly engaged actors more likely to consider environmental justice and ecological aspects of sea level rise. Our findings have implications for theories of nascent subsystems within the Advocacy Coalition Framework, and for understanding how a local policy subsystem develops to address and prioritize the multi-faceted impacts of climate change.
+
+### Key figure from the paper
+
+![Figure 1: IRT policy preferences](RPR2022.jpg)
+
+### Citation
+
+``` bibtex
+@article{RPR22,
+    author = {Kyra Gmoser-Daskalakis and Tyler Scott and Mark Lubell and Francesca Pia Vantaggiato},
+    title = {At Item Response Approach to Sea Level Rise Policy Preferences in a Nascent Subsystem.},
+    journal = {Review of Policy Research},
+    volume = {Accepted/In press},
+    number = {},
+    pages = {},
+    date  = {2022},
+    publisher = {},
+    doi = {},
+    URL = {}
+}
+```

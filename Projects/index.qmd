@@ -1,9 +1,19 @@
 ---
 title: "Projects"
 
+title-block-banner: "#E6E6FA"
 page-layout: full
 include-back-link: false
 toc-location: right
 ---
 
-This page brings together the research projects I have co-conceived/initiated.
+In the past few years, I have been working on projects falling under two main headings. One is adaptation to sea level rise in California, the other is the governance of flood risk management in England. I started the former as a post-doc at University of California, Davis. I started working on the latter upon joining King's.
+
+::: panel-tabset
+
+### Flood risk management
+
+### Sea level rise adaptation
+
+
+:::
