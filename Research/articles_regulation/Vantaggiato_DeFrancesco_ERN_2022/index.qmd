@@ -1,0 +1,37 @@
+---
+title: "European Regulatory Networks"
+subtitle: "chapter 5 in *Elgar Encyclopedia of European Union Public Policy*"
+date: 2022-12-01
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Fabrizio De Francesco
+      affiliation: University of Strathclyde, Glasgow (UK)
+categories: 
+  - European regulatory networks
+  - review
+  - EU encyclopedia
+
+---
+
+### Abstract
+The establishment of regulatory networks is one of the distinctive phenomena of the European regulatory state. Regulatory net- works have been shaped by the constant evolution of the institutional and governance landscape associated with the completion of the single market and its regulatory harmonisation. Regulatory networks first emerged in the late 1990s as informal, voluntary networks of national regulatory authorities governing sectors of economic regulation and utilities. Seeing the potential to leverage regulatory coordination to harmonise regulation across the Member States, in the early 2000s the European Commission co-opted these informal networks, trans- forming them into European Regulatory Networks (ERNs). Typically instituted via a Commission Decision as advisory bodies to the European Commission without any administrative power, ERNs comprised representatives of national regulatory authorities for the sector in question, one from each of the Member States of the European Union (EU). Their stated purpose was to foster regulatory harmonisation via exchange of information and the facilitation of deliberation among national regulators on common standards to be adopted in their respective countries. Today, most ERNs have disappeared and evolved into European Agencies with limited but concrete rulemaking and enforcement powers on issues of European relevance. However, the informal and spontaneous networks that prepared the ground for ERNs still exist; national regulators have not disbanded them. This chapter discusses both informal regulatory networks and ERNs in an evolutionary perspective in order to understand their scope and functions, the delegation dynamics they have generated, and the substantial characteristics of regulatory collaboration. 
+
+
+### Citation
+
+```bibtex
+@incollection{VantaggiatoDeFrancescoCh:2022,
+  author       = {Francesca Pia Vantaggiato and Fabrizio De Francesco}, 
+  title        = {European Regulatory Networks},
+  booktitle    = {Elgar Encyclopedia of the European Union},
+  publisher    = {Edgward Elgar},
+  year         = {2022},
+  editor       = {Jale Tosun and Paolo Graziano},
+  chapter      = {5},
+  pages        = {45-52}
+}
+```
+

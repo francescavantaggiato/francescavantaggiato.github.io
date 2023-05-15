@@ -1,19 +1,24 @@
 ---
 title: "Research"
 listing:
-    id: articles
-    contents: "articles/*/index.qmd"
+  - id: articles_envgov
+    contents: "articles_envgov/*/index.qmd"
     sort: "date desc"
     date-format: "MMMM, YYYY"
     categories: true
     type: default
-    fields:
-      - title
-      - subtitle
-      - description
-      - image
-      - categories
-      - author
+  - id: articles_regulation
+    contents: "articles_regulation/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+  - id: articles_eu
+    contents: "articles_eu/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
 page-layout: full
 include-back-link: false
 toc-location: right
@@ -24,19 +29,22 @@ My research agenda comprises three main strands:
 
 * **environmental governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits; 
 * **regulation**, where I study how regulators influence the policy agenda; and 
-* **multilevel governance** in the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests. 
+* **European Union institutions**, where I study the behaviour of European bureaucrats within the institutions as well as towards the outer world. 
 
-The tabs below list my publications and explain my main findings in each of these three fields.
+The tabs below list some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab. 
+
 
 ::: panel-tabset
 
 ### Environmental governance
 
-This is my most recently developed and currently most central research agenda. 
+This is my most recently developed and currently core research agenda. I am interested in cases where different kinds of policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. 
 
-Publications include:
+In these contexts, I typically study three social processes: how these actors gather information about the environmental issue and the preferences of other actors (learning), how they try to collaborate (coordination & cooperation) and how they bargain about costs and benefits of any decision (bargaining). 
+My research in this area is shaped by the work I have done in collaboration with Prof Mark Lubell (University of California, Davis) while working as a postdoc at the [Center for Environmental Policy and Behavior](https://environmentalpolicy.ucdavis.edu/) (CEPB), which was focused on how polycentric governance systems respond to the emergence of new collective action problems.
 
-:::{#articles}
+
+:::{#articles_envgov}
 :::
 
 
@@ -44,12 +52,18 @@ Publications include:
 
 ### Regulation
 
-We show the data in this tab.
+I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks.
+
+:::{#articles_regulation}
+:::
 
 
-### European Union multilevel governance
+### European Union institutions
 
-Research on the EU. 
+During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof. Hussein Kassim. That involvement has led to publications focused on EU bureaucrats and their behaviour within the organisation. 
+
+:::{#articles_eu}
+:::
 
 :::
 

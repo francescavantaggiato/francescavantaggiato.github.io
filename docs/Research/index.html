@@ -63,20 +63,76 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-articles .list');
+    const listingTargetEl = window.document.querySelector('#listing-articles_envgov .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-title','listing-subtitle','listing-description','listing-image','listing-categories','listing-author',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
       searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-articles'] = new List('listing-articles', options);
+    window['quarto-listings']['listing-articles_envgov'] = new List('listing-articles_envgov', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles_regulation .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles_regulation'] = new List('listing-articles_regulation', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles_eu .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles_eu'] = new List('listing-articles_eu', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -159,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SF Bay">SF Bay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate adaptation">climate adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate scenarios">climate scenarios <span class="quarto-category-count">(1)</span></div><div class="category" data-category="networks">networks <span class="quarto-category-count">(1)</span></div><div class="category" data-category="simulations">simulations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social-ecological systems">social-ecological systems <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Bayesian Exponential Random Graph Model">Bayesian Exponential Random Graph Model <span class="quarto-category-count">(1)</span></div><div class="category" data-category="EU encyclopedia">EU encyclopedia <span class="quarto-category-count">(1)</span></div><div class="category" data-category="European Commission">European Commission <span class="quarto-category-count">(1)</span></div><div class="category" data-category="European regulatory networks">European regulatory networks <span class="quarto-category-count">(2)</span></div><div class="category" data-category="General Secretariat of the Council">General Secretariat of the Council <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SF Bay">SF Bay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="blockmodels">blockmodels <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate adaptation">climate adaptation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate scenarios">climate scenarios <span class="quarto-category-count">(1)</span></div><div class="category" data-category="influence">influence <span class="quarto-category-count">(1)</span></div><div class="category" data-category="learning">learning <span class="quarto-category-count">(1)</span></div><div class="category" data-category="networks">networks <span class="quarto-category-count">(3)</span></div><div class="category" data-category="review">review <span class="quarto-category-count">(1)</span></div><div class="category" data-category="silos">silos <span class="quarto-category-count">(1)</span></div><div class="category" data-category="simulations">simulations <span class="quarto-category-count">(1)</span></div><div class="category" data-category="social-ecological systems">social-ecological systems <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content column-page-left" id="quarto-document-content">
 
@@ -184,23 +240,23 @@ ul.task-list li input[type="checkbox"] {
 <ul>
 <li><strong>environmental governance</strong>, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits;</li>
 <li><strong>regulation</strong>, where I study how regulators influence the policy agenda; and</li>
-<li><strong>multilevel governance</strong> in the European Union, where I study how different governance actors (civil servants, regulators, interest groups, civil society) exploit the gaps between levels of governance to further their interests.</li>
+<li><strong>European Union institutions</strong>, where I study the behaviour of European bureaucrats within the institutions as well as towards the outer world.</li>
 </ul>
-<p>The tabs below list my publications and explain my main findings in each of these three fields.</p>
+<p>The tabs below list some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.</p>
 <div class="panel-tabset">
-<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Environmental governance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Regulation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">European Union multilevel governance</a></li></ul>
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Environmental governance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Regulation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">European Union institutions</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>This is my most recently developed and currently most central research agenda.</p>
-<p>Publications include:</p>
-<div id="listing-articles" class="quarto-listing quarto-listing-container-default">
+<p>This is my most recently developed and currently core research agenda. I am interested in cases where different kinds of policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own.</p>
+<p>In these contexts, I typically study three social processes: how these actors gather information about the environmental issue and the preferences of other actors (learning), how they try to collaborate (coordination &amp; cooperation) and how they bargain about costs and benefits of any decision (bargaining). My research in this area is shaped by the work I have done in collaboration with Prof Mark Lubell (University of California, Davis) while working as a postdoc at the <a href="https://environmentalpolicy.ucdavis.edu/">Center for Environmental Policy and Behavior</a> (CEPB), which was focused on how polycentric governance systems respond to the emergence of new collective action problems.</p>
+<div id="listing-articles_envgov" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="climate adaptation,social-ecological systems,networks,SF Bay,climate scenarios,simulations" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1684113218725" data-listing-reading-time-sort="1.555">
+<div class="quarto-post image-right" data-index="0" data-categories="climate adaptation,social-ecological systems,networks,SF Bay,climate scenarios,simulations" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1684170118573" data-listing-reading-time-sort="1.53">
 <div class="thumbnail">
-<p><a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html"> <img src="../Research/articles/Vantaggiato_et_al_GEC_2023/GEC_2023_img.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html"> <img src="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/GEC_2023_img.jpg" class="thumnail-image"> </a></p>
 </div>
 <div class="body">
-<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html">
 <h3 class="no-anchor listing-title">
 Creating adaptive social-ecological fit: The role of regional actors in the governance of Sea-level rise adaptation in San Francisco Bay
 </h3>
@@ -228,14 +284,17 @@ climate scenarios
 simulations
 </div>
 </div>
-<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html">
 <div class="listing-description">
 Sea level rise is one of the most pressing climate adaptation issues around the world. Often, coastal communities are interdependent in their exposure to sea level rise – if…
 </div>
 </a>
 </div>
 <div class="metadata">
-<a href="../Research/articles/Vantaggiato_et_al_GEC_2023/index.html">
+<a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html">
+<div class="listing-date">
+May, 2023
+</div>
 <div class="listing-author">
 Francesca Pia Vantaggiato, Mark Lubell, Michelle Hummel, Aaron C. H. Chow, Alain Tcheukam Siwe
 </div>
@@ -249,10 +308,163 @@ No matching items
 </div>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>We show the data in this tab.</p>
+<p>I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks.</p>
+<div id="listing-articles_regulation" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="European regulatory networks,review,EU encyclopedia" data-listing-date-sort="1669881600000" data-listing-file-modified-sort="1684172041099" data-listing-reading-time-sort="1.73">
+<div class="thumbnail">
+<a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
+<div class="thumbnail-image">
+
+</div>
+</a><p><a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html"></a></p>
+</div>
+<div class="body">
+<a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
+<h3 class="no-anchor listing-title">
+European Regulatory Networks
+</h3>
+<div class="listing-subtitle">
+chapter 5 in <em>Elgar Encyclopedia of European Union Public Policy</em>
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('European regulatory networks'); return false;">
+European regulatory networks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('review'); return false;">
+review
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('EU encyclopedia'); return false;">
+EU encyclopedia
+</div>
+</div>
+<a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
+<div class="listing-description">
+The establishment of regulatory networks is one of the distinctive phenomena of the European regulatory state. Regulatory net- works have been shaped by the constant…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
+<div class="listing-date">
+December, 2022
+</div>
+<div class="listing-author">
+Francesca Pia Vantaggiato, Fabrizio De Francesco
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="European regulatory networks,learning,influence,networks,Bayesian Exponential Random Graph Model" data-listing-date-sort="1664607600000" data-listing-file-modified-sort="1684172043312" data-listing-reading-time-sort="1.015">
+<div class="thumbnail">
+<p><a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html"> <img src="../Research/articles_regulation/Vantaggiato_JEPP_2022/JEPP2022_ERN_1998_2000.jpeg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html">
+<h3 class="no-anchor listing-title">
+From learning to influence: the evolution of collaboration in European Administrative Networks
+</h3>
+<div class="listing-subtitle">
+2022, Journal of European Public Policy
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('European regulatory networks'); return false;">
+European regulatory networks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('learning'); return false;">
+learning
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('influence'); return false;">
+influence
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('networks'); return false;">
+networks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Bayesian Exponential Random Graph Model'); return false;">
+Bayesian Exponential Random Graph Model
+</div>
+</div>
+<a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html">
+<div class="listing-description">
+Most European Administrative Networks (EANs) have been operational for over two decades. Yet, our understanding of their evolution is limited. How do EANs evolve? I…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html">
+<div class="listing-date">
+October, 2022
+</div>
+<div class="listing-author">
+Francesca Pia Vantaggiato
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </div>
 <div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
-<p>Research on the EU.</p>
+<p>During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof.&nbsp;Hussein Kassim. That involvement has led to publications focused on EU bureaucrats and their behaviour within the organisation.</p>
+<div id="listing-articles_eu" class="quarto-listing quarto-listing-container-default">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="silos,European Commission,General Secretariat of the Council,blockmodels,networks" data-listing-date-sort="1633071600000" data-listing-file-modified-sort="1684172008213" data-listing-reading-time-sort="1.025">
+<div class="thumbnail">
+<p><a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html"> <img src="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/JEPP2021_silos_GSC.jpg" class="thumnail-image"> </a></p>
+</div>
+<div class="body">
+<a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html">
+<h3 class="no-anchor listing-title">
+Breaking out of silos: explaining cross-departmental interactions in two European bureaucracies
+</h3>
+<div class="listing-subtitle">
+2021, Journal of European Public Policy
+</div>
+</a>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('silos'); return false;">
+silos
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('European Commission'); return false;">
+European Commission
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('General Secretariat of the Council'); return false;">
+General Secretariat of the Council
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('blockmodels'); return false;">
+blockmodels
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('networks'); return false;">
+networks
+</div>
+</div>
+<a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html">
+<div class="listing-description">
+The view that silos are endemic in organisations in general and the European Civil Service in particular has become increasingly widespread. Yet, silos are rarely…
+</div>
+</a>
+</div>
+<div class="metadata">
+<a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html">
+<div class="listing-date">
+October, 2021
+</div>
+<div class="listing-author">
+Francesca Pia Vantaggiato, Hussein Kassim, Sara Connolly
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
 </div>
 </div>
 </div>

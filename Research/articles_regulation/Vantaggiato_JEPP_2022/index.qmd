@@ -1,0 +1,50 @@
+---
+title: "From learning to influence: the evolution of collaboration in European Administrative Networks" 
+subtitle: "2022, Journal of European Public Policy"
+date: 2022-10-01
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+categories: 
+  - European regulatory networks
+  - learning
+  - influence
+  - networks
+  - Bayesian Exponential Random Graph Model
+
+---
+
+### Abstract
+Most European Administrative Networks (EANs) have been operational for over two decades. Yet, our understanding of their evolution is limited. How do EANs evolve? I formulate two hypotheses, premised on the notion that networks help actors address collective action problems by establishing social capital, whose distribution in the network changes over time to respond to changed circumstances. Using a Bayesian network model of the structure of the Council of European Energy Regulators (CEER) at two-time points (1998 and 2014), this paper shows that regulatory relationships shifted from being focused on learning to be aimed at achieving compromise in order to influence European policy-making. Rather than functional, static devices of rule harmonization, EANs are dynamic social networks that adapt to their changing environment. The paper provides a theoretical background and empirical approach to understand and analyse EANs evolution in different sectors.
+
+### Key figures in the paper
+
+
+![Figure 1: Bayesian ERG model of network structure 1998-2000](JEPP2022_ERN_1998_2000.jpeg)
+
+
+
+
+
+![Figure 2: Bayesian ERG model of network structure 2014-2015](JEPP2022_ERN_2014_2015.jpeg)
+
+
+### Citation
+
+```bibtex
+@article{Vantaggiato_JEPP_2022,
+	author = {Francesca Pia Vantaggiato},
+	doi = {10.1080/13501763.2018.1535611},
+	journal = {Journal of European Public Policy},
+	publisher = {Routledge},
+	title = {From learning to influence: the evolution of collaboration in European Administrative Networks},
+	volume = {29},
+    number = {10},
+	pages = {1631-1655},
+	year = {2022},
+	bdsk-url-1 = {https://doi.org/10.1080/13501763.2022.2069843}}
+}
+```
+

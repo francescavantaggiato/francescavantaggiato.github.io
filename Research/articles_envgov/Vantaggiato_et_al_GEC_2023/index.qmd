@@ -36,7 +36,6 @@ Sea level rise is one of the most pressing climate adaptation issues around the 
 
 ### Key figure from the paper
 
-Figure 1: Motif distribution (inundation matrix)
 
 ![Figure 1: Motif distribution (inundation matrix)](GEC_2023_img.jpg)
 
