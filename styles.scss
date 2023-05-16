@@ -36,7 +36,7 @@ $code-color: $darkgray; // inline code text color
 $code-block-bg: $white; // code block background color
 
 h1 {
-  color: $raspberry;
+  color: $darkblue;
 }
 
 h2 {
@@ -49,10 +49,11 @@ h3 {
 
 div.quarto-about-trestles .about-entity .about-link {
     color: #fcf9f4 !important;
-    text-decoration: none;
+    text-decoration: #00008B;
     border: #00008B;
     background-color: #c27e97;
 }
+
 
 .navbar-title {
   font-family: Bellota;
@@ -63,8 +64,60 @@ h1.title, .title.h1 {
     font-size: 2.0em;
 }
 
-.title {
-  font-size: 50px;
-  color: darkblue;
-  font-family: Bellota;
+.panel-tabset .nav-tabs {
+    border-bottom: 5px solid #434343;
+}
+
+.panel-tabset .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    color: #00008B;
+    background-color: lavender;
+    border-color: #00008B #00008B transparent;
+}
+
+.panel-tabset .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
+    border-color: #00008B #00008B transparent;
+    isolation: isolate;
+}
+
+
+
+
+.nav-footer {
+    align-items: flex-start;  // Align all flex items to the top
+    flex-wrap: wrap;
+    border: 0 !important;
+    min-height: 3em;
+
+    a {
+        color: $darkgray;
+    }
+
+    .faux-block {
+        display: block;
+        padding-bottom: 0.4em;
+    }
+  // When the screen is medium or smaller, make each footer chunk be 100% width 
+    // and centered; otherwise make them be 33% width and left/right/centerd
+    .nav-footer-left,
+    .nav-footer-right,
+    .nav-footer-center {
+        text-align: center;
+        width: 100%;
+        min-height: 2em;
+    }
+
+        .nav-footer-right {
+            text-align: right;
+        }
+        
+         .nav-footer-left {
+            text-align: left;
+        }
+
+
+        .nav-footer-left,
+        .nav-footer-right,
+        .nav-footer-center {
+            flex: 1 1 33%;
+        }
 }

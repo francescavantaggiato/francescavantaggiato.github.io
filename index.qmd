@@ -9,7 +9,7 @@ about:
       href: https://scholar.google.com/citations?user=X_ur-ZYAAAAJ&hl=en
     - icon: envelope
       text: E-mail
-      href: francesca.vantaggiato@kcl.ac.uk
+      href: mailto:francesca.vantaggiato@kcl.ac.uk
       
 page-layout: full
 ---

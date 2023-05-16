@@ -24,6 +24,17 @@ website:
         href: https://twitter.com/FPVantaggiato
       - icon: linkedin
         href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
+      - icon: orcid 
+        href: https://orcid.org/0000-0003-1154-4540
+  
+
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} 2013-2023 Francesca Vantaggiato</span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">Website design inspired by [Allison Horst](https://allisonhorst.github.io/) and [Andrew Heiss](https://www.andrewheiss.com/)</span>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/francescavantaggiato/francescavantaggiato.github.io)</span>
 
 format:
   html:
