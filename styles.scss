@@ -47,6 +47,10 @@ h3 {
   color: $darkblue;
 }
 
+h4 {
+  color: $darkblue;
+}
+
 div.quarto-about-trestles .about-entity .about-link {
     color: #fcf9f4 !important;
     text-decoration: #00008B;
@@ -63,6 +67,8 @@ h1.title, .title.h1 {
     font-family: Bellota;
     font-size: 2.0em;
 }
+
+//to style the panel tabset look at https://github.com/KaiWaldrant/quarto-panel-tabset-border/blob/main/index.qmd
 
 .panel-tabset .nav-tabs {
     border-bottom: 5px solid #434343;
@@ -81,7 +87,7 @@ h1.title, .title.h1 {
 
 
 
-
+// from Andrew Heiss' yml
 .nav-footer {
     align-items: flex-start;  // Align all flex items to the top
     flex-wrap: wrap;

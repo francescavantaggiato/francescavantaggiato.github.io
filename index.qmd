@@ -4,8 +4,7 @@ about:
   template: trestles
   image: fpv_pic.jpg
   links:
-    - icon: google-scholar
-      text: Google Scholar
+    - text: "{{< ai google-scholar color=white size=lg >}} Google Scholar"
       href: https://scholar.google.com/citations?user=X_ur-ZYAAAAJ&hl=en
     - icon: envelope
       text: E-mail

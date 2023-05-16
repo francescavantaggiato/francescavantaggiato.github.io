@@ -24,10 +24,11 @@ website:
         href: https://twitter.com/FPVantaggiato
       - icon: linkedin
         href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
-      - icon: orcid 
+#https://www.r-bloggers.com/2022/07/academicons-my-first-quarto-extension/
+      - text: "{{< ai orcid color=white size=lg >}}"
         href: https://orcid.org/0000-0003-1154-4540
   
-
+# https://github.com/quarto-ext/fontawesome for the fa icons
   page-footer:
     left: |
       <span class="faux-block">{{< fa brands creative-commons >}} 2013-2023 Francesca Vantaggiato</span>

@@ -1,0 +1,22 @@
+---
+title: "RISER SF Bay - Resilient Infrastructures as Seas Rise." 
+subtitle: ""
+date: 2018-01-01
+date-format: "MMMM, YYYY"
+author:    
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Mark Lubell
+      url: https://www.kcl.ac.uk/people/christoph-meyer
+      affiliation: Department of Environmental Science & Policy, University of California Davis (United States)
+
+---
+
+The [RISER project](https://environmentalpolicy.ucdavis.edu/project/governance-sea-level-rise-san-francisco-bay-area) investigated the collaborative governance of adaptation to sea level rise in the San Francisco Bay Area. The project sought to identify, map and understand the governance, ecological and infrastructural interdependencies existing in the Bay Area as concerned climate adaptation to sea level rise. It was a joint effort with University of California Berkeley Dept of Engineering and New York University Abu Dhabi Engineering Division, financed by a NSF Critical Resilient Interdependent Infrastructure Systems and Processes (CRISP) grant of \$5 million.
+
+![Figure 1: RISER project concept](riser.jpg)
+
+The study began in 2015 and proceeded in 2 phases. The first phase consisted of qualitative interviews with 39 governmental and non-governmental stakeholders in the Bay Area aimed at understanding the main challenges faced by stakeholders, their goals and perceptions of sea level rise as an environmental issue. The outcome of the first phase is a **report** released in 2017, authored by Mark Lubell and titled [The Governance Gap](https://environmentalpolicy.ucdavis.edu/sites/g/files/dgvnsk6866/files/2019-10/UC-Davis-Governance-Gap-Sea-Level-Rise-Final-Report.pdf). This report has been widely circulated across collaborative platforms and venues focused on climate adaptation and sea level rise in the Bay Area.
+
+The second phase began in 2018 (when I joined) and consisted of drafting and disseminating a web-based governance survey to a comprehensive list of stakeholders involved in the governance of sea level rise. The outcome of this effort is a **report** authored by Mark Lubell, Francesca Pia Vantaggiato and Darcy Bostic, released in 2019 and titled [The governance of sea level rise in the San Francisco Bay Area: results from a survey of stakeholders](https://environmentalpolicy.ucdavis.edu/sites/g/files/dgvnsk6866/files/2019-10/SLR_survey_report_final.pdf). This report has been circulated to all survey respondents. Its main results have been presented at various policy meetings focused on climate adaptation and sea level rise in the Bay Area. If you don't want to read the full report, you can find **a short presentation** of our findings as we presented them to Bay Area policy-makers [here](https://agitated-sammet-32f8a7.netlify.app/#1).

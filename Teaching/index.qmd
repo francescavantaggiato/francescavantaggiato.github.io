@@ -1,6 +1,8 @@
 ---
 title: "Teaching"
-
+execute:
+  echo: false
+  warning: false
 title-block-banner: "#E6E6FA"
 page-layout: full
 include-back-link: false
@@ -23,7 +25,30 @@ In the tabs below I summarize how I go about teaching these things.
 ::: panel-tabset
 ### Environmental policy and governance
 
-The 3rd year undergraduate **Environmental Governance** module I teach at King's has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power & justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of governance processes, and how the notion of 'leaving the politics at the door' is, at best, hypocritical. Soon in its fourth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year.
+The 3rd year undergraduate **Environmental Governance** module I teach at King's has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power & justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of environmental governance processes and the political economy of making decisions to face the consequences of a changing climate. The key takeaway of this module is that the notion of 'leaving the politics at the door' is wishful thinking when discussing environmental problems and solutions, no matter how well-intentioned those who utter it may be. Soon in its fourth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year and here is a little plot to show that.
+
+```{r, fig.height = 4, fig.width = 8, fig.align='center'}
+
+library(ggplot2)
+library(grid)
+envgov_students_growth <- data.frame(year = c("2020-2021", "2021-2022", "2022-2023", "2023-2024"), student_numbers = c(25, 55, 67, 133))
+
+envgov_students_growth$year = factor(envgov_students_growth$year, levels=sort(unique(envgov_students_growth$year)), ordered=TRUE)
+
+p2 <- ggplot(envgov_students_growth, aes(x = year, y = student_numbers)) +
+  geom_point(size = 3, color = 'darkgreen') +
+  geom_line(aes(group=1), color = 'darkblue') +
+  ggtitle("Growth in student numbers for Environmental Governance module") +
+  xlab("Academic year") + ylab("Student numbers") +
+  scale_y_continuous(breaks = c(0, 25, 50, 75, 100, 125, 150)) +
+  theme_minimal()
+# to change the whole background behind the plot
+cowplot::ggdraw(p2) + 
+  theme(plot.background = element_rect(fill="#fcf9f4", color = NA))
+
+
+```
+I take this interest in this kind of module to show that students care about the environment and see that it entails the interplay of politics, political economy, public policy and climate science.
 
 -   In connection with this module, I have created a Shiny app that represents an introduction to social network analysis and the way it's used in environmental governance studies. The app is called [VisualGov](https://fpvdpe.shinyapps.io/visual_gov/) and it is currently in development.
 
@@ -31,6 +56,5 @@ The MA level **Climate policy and the energy transition** module I co-convene wi
 
 ### Comparative Public Policy
 
-This is one of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the good ol' methods of agreement and difference.
-
+The MA module in **Comparative Public Policy** is of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference.
 :::

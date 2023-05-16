@@ -1,0 +1,27 @@
+---
+title: "CSDP and climate security" 
+subtitle: ""
+date: 2021-02-01
+date-format: "MMMM, YYYY"
+page-format: full
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Christoph Meyer
+      url: https://www.kcl.ac.uk/people/christoph-meyer
+      affiliation: Department of European and International Studies (EIS), King's College London (UK)
+    - name: Richard Youngs
+      url: https://warwick.ac.uk/fac/soc/pais/people/youngs/
+      affiliation: Department of Politics, University of Warwick (UK)
+      
+---
+
+
+This project was commissioned to us (myself, Christoph Meyer (KCL) and Richard Youngs (Warwick)) by the SEDE Committee of the European Parliament, which deals with security matters and foreign policy. We received a small grant to carry out the research (€ 5000) for an 'in-depth analysis', which is essentially a long-ish policy report.
+
+We carried out around 20 interviews with EU civil servants working in EU Delegations or civilian missions of the Common Security and Defence Policy (CSDP) in six countries between the Horn of Africa and the Sahel region. We asked them about their perception of the effects of climate change on their fulfillment of their tasks, and whether they see climate change as a potential source of security problems. We also asked about what actions they think might foster adaptation to climate change in these countries.
+
+You find the **report** [here](https://www.europarl.europa.eu/RegData/etudes/IDAN/2021/653639/EXPO_IDA(2021)653639_EN.pdf).
+
+The report was very well-received by the SEDE Subcommittee. We were invited to present it to them in two separate occasions [here is the video](https://multimedia.europarl.europa.eu/en/webstreaming/committees_20211206-1345-COMMITTEE-SEDE). Our report will form the basis of an 'own-initiative report' drafted by the Subcommittee. These reports typically become legislation.

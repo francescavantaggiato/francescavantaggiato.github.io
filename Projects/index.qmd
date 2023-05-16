@@ -1,19 +1,49 @@
 ---
-title: "Projects"
-
-title-block-banner: "#E6E6FA"
+title: "Projects & Policy Reports"
+listing:
+  - id: RISER
+    contents: "RISER/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: false
+    type: default
+  - id: Climate_security_EP
+    contents: "Climate_security_EP/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: false
+    type: default
+  - id: FRM_UK
+    contents: "FRM_UK/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: false
+    type: default
 page-layout: full
+title-block-banner: "#E6E6FA"
 include-back-link: false
 toc-location: right
 ---
 
-In the past few years, I have been working on projects falling under two main headings. One is adaptation to sea level rise in California, the other is the governance of flood risk management in England. I started the former as a post-doc at University of California, Davis. I started working on the latter upon joining King's.
+In the past few years, I have been working on projects dealing with climate change adaptation. These projects have resulted not only in academic publications but also in policy reports aimed at practitioners, who were also often research participants. The common theme of these projects is the interplay between the climate science and the policy and political implications of adapting to a changing climate, the decisions to be made and how those affect the existing balance between winners and losers.
 
 ::: panel-tabset
-
 ### Flood risk management
+
+::: {#FRM_UK}
+:::
+
+### Climate and security
+
+Thus far I have only worked on this topic for one project, linked below.
+
+::: {#Climate_security_EP}
+:::
 
 ### Sea level rise adaptation
 
+This section lists the projects I have been involved in that concern the governance of climate adaptation to sea level rise. I began working on climate adaptation during my post-doc at University of California, Davis. 
 
+::: {#RISER}
+:::
 :::
