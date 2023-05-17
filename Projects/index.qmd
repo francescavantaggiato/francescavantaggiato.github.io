@@ -42,7 +42,7 @@ Thus far I have only worked on this topic for one project, linked below.
 
 ### Sea level rise adaptation
 
-This section lists the projects I have been involved in that concern the governance of climate adaptation to sea level rise. I began working on climate adaptation during my post-doc at University of California, Davis. 
+This section lists the projects I have been involved in that concern the governance of climate adaptation to sea level rise. I began working on climate adaptation during my post-doc at University of California, Davis.
 
 ::: {#RISER}
 :::

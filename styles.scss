@@ -68,6 +68,14 @@ h1.title, .title.h1 {
     font-size: 2.0em;
 }
 
+.quarto-title-block .quarto-title-banner {
+  font-size: 20px;
+  font-style: bold;
+  color: darkblue;
+  font-family: Bellota;
+  font-variant: small-caps;
+}
+
 //to style the panel tabset look at https://github.com/KaiWaldrant/quarto-panel-tabset-border/blob/main/index.qmd
 
 .panel-tabset .nav-tabs {
