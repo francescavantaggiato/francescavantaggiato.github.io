@@ -8,7 +8,9 @@
       "/Research/articles_envgov/Vantaggiato_Lubell_PSJ_2022/index.html",
       "/Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html",
       "/Research/articles_regulation/Vantaggiato_JEPP_2022/index.html",
+      "/Research/articles_regulation/Vantaggiato_Kassim_Wright_2021/index.html",
       "/Research/articles_regulation/Mantzari_Vantaggiato_Law&Policy_2020/index.html",
+      "/Research/articles_regulation/Vantaggiato_JEPP_2019/index.html",
       "/Research/articles_regulation/Vantaggiato_JCMS_2019/index.html",
       "/Research/articles_regulation/Vantaggiato_Governance_2019/index.html",
       "/Research/articles_regulation/Vantaggiato_JPP_2019/index.html",
@@ -18,9 +20,10 @@
   {
     "listing": "/Projects/index.html",
     "items": [
-      "/Projects/RISER/index.html",
-      "/Projects/Climate_security_EP/index.html",
-      "/Projects/FRM_UK/index.html"
+      "/Projects/SLR/SB1_2018-2019/index.html",
+      "/Projects/SLR/RISER_2018-2020/index.html",
+      "/Projects/Climate_security_EP_2021/index.html",
+      "/Projects/FRM_UK_2021-present/index.html"
     ]
   }
 ]

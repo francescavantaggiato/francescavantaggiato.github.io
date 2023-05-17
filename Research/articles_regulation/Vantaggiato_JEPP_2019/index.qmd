@@ -1,0 +1,37 @@
+---
+title: "Networking for resources: How regulators use networks to compensate for lower staff levels." 
+subtitle: "2019, *Journal of European Public Policy*"
+date: 2019-10-03
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+categories: 
+  - regulatory networks
+  - collaboration
+  - energy
+  - multilevel governance
+---
+
+### Abstract
+
+The literature has found that regulatory networks foster exchange of information between regulators, but failed to specify the mechanism whereby regulators network for expertise. This paper posits that informal networks constitute a compensatory mechanism for lacking resources. The hypothesis guiding analysis is that lower resources (operationalised as staff resources) are associated with higher network activism (operationalised as a higher proportion of outgoing ties), particularly for regulators with intermediate levels of resources, for whom the benefits of networking are most likely to outweigh the costs. I test this hypothesis in the empirical case of European national energy regulators, using recent and original data on their bilateral collaboration ties. The results of the statistical analysis lend support to the hypothesis. The results suggest that the interdependence engendered by the European Union improves European regulatory governance by improving national regulatory practice, more than would be possible on the basis of national resources alone.
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_JEPP_2019,
+    author = {Francesca Pia Vantaggiato},
+    doi = {10.1080/13501763.2018.1535611},
+    journal = {Journal of European Public Policy},
+    number = {10},
+    pages = {1540-1559},
+    publisher = {Routledge},
+    title = {Networking for resources: how regulators use networks to compensate for lower staff levels},
+    volume = {26},
+    year = {2019},
+    bdsk-url-1 = {https://doi.org/10.1080/13501763.2018.1535611}}
+
+}
+```

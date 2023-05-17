@@ -14,28 +14,25 @@ categories:
   - regulatory agencies
   - discretion
   - expertise
-  - utilities
-  - uncertainty
+  - United Kingdom
 ---
 
 ### Abstract
 
-Regulatory authorities in the utilities sector typically employ economic evidence and analysis to make expert discretionary judgments under uncertainty. However, economic analysis does not provide clear answers regarding policy outcomes. This exposes regulators to environmental uncertainty, that is, uncertainty regarding the reactions of other actors in the institutional system to their decisions. When policy outcome and environmental uncertainty are high, discretion takes center stage. Will regulators pursue the course of action suggested by economic analysis and their expert judgment or not? What explains this choice? To answer these questions, we carry out a comparative analysis of three British regulatory authorities in the utilities sector: the Office of Communications, the Office of Gas and Electricity, and the Water Services Regulation Authority. We consider two key sectoral and organizational characteristics: the extent of market competition, and statutory discretion. We rely on interview evidence and documentary analysis and a principal–agent framework. Our analysis reveals a paradox: when environmental and policy outcome uncertainty are high, the higher the regulatory discretion, the lower the role of economic expertise in regulatory decisions. Our findings call for a normative reflection on the role of expertise in regulated sectors.
+Regulatory authorities in the utilities sector typically employ economic evidence and analysis to make expert discretionary judgments under uncertainty. However, economic analysis does not provide clear answers regarding policy outcomes. This exposes regulators to environmental uncertainty, that is, uncertainty regarding the reactions of other actors in the institutional system to their decisions. When policy outcome and environmental uncertainty are high, discretion takes center stage. Will regulators pursue the course of action suggested by economic analysis and their expert judgment or not? What explains this choice? To answer these questions, we carry out a comparative analysis of three British regulatory authorities in the utilities sector: the Office of Communications, the Office of Gas and Electricity, and the Water Services Regulation Authority. We consider two key sectoral and organizational characteristics: the extent of market competition, and statutory discretion. We rely on interview evidence and documentary analysis and a principal--agent framework. Our analysis reveals a paradox: when environmental and policy outcome uncertainty are high, the higher the regulatory discretion, the lower the role of economic expertise in regulatory decisions. Our findings call for a normative reflection on the role of expertise in regulated sectors.
 
 ### Citation
 
 ``` bibtex
 @article{Mantzari_Vantaggiato_LawPolicy_2020,
-	author = {Mantzari, Despoina and Vantaggiato, Francesca Pia},
-	doi = {https://doi.org/10.1111/lapo.12158},
-	journal = {Law \& Policy},
-	number = {4},
-	pages = {382-403},
-	title = {The paradox of regulatory discretion},
-	volume = {42},
-	year = {2020},
-	bdsk-url-1 = {https://doi.org/10.1111/lapo.12158}}
+    author = {Mantzari, Despoina and Vantaggiato, Francesca Pia},
+    doi = {https://doi.org/10.1111/lapo.12158},
+    journal = {Law \& Policy},
+    number = {4},
+    pages = {382-403},
+    title = {The paradox of regulatory discretion},
+    volume = {42},
+    year = {2020},
+    bdsk-url-1 = {https://doi.org/10.1111/lapo.12158}}
 }
 ```
-
-

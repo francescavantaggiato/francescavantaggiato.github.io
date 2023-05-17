@@ -1,5 +1,5 @@
 ---
-title: "Research"
+title: "Research & Publications"
 listing:
   - id: articles_envgov
     contents: "articles_envgov/*/index.qmd"
@@ -31,7 +31,7 @@ My research interests span public policy, governance, public administration. My 
 -   **regulation**, where I study how regulators influence the policy agenda; and
 -   **European Union institutions**, where I study the behaviour of European bureaucrats within the institutions as well as towards the outer world.
 
-The tabs below list some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.
+The tabs below list only some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.
 
 ::: panel-tabset
 ### Environmental governance

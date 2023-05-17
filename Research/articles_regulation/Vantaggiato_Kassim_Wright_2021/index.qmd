@@ -1,0 +1,46 @@
+---
+title: "Internal network structures as opportunity structures: Control and effectiveness in the European competition network." 
+subtitle: "2021, *Journal of European Public Policy*"
+date: 2021-04-03
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Hussein Kassim
+      url: https://research-portal.uea.ac.uk/en/persons/hussein-kassim
+      affiliation: Department of Politics, Philosophy, Language and Communication Studies, University of East Anglia (UK)
+    - name: Kathryn Wright
+      url: 
+      affiliation: York Law School, University of York (UK)
+categories: 
+  - European Competition Network
+  - networks
+  - interviews
+  - agenda-setting
+---
+
+### Abstract
+
+European Administrative Networks (EANs) are well-studied platforms of collaboration between national authorities. To understand EANs, the literature typically relies on few explanatory variables: network origins, objectives, and outputs. This external view of EANs leaves important questions unanswered, notably concerning power redistribution and regulators’ perception of EANs. This article highlights the importance of network internal structures as an explanatory variable for understanding EANs. We contend that internal structures are ‘opportunity structures’ for regulators to set agendas and share resources. We investigate the case of the European Competition Network (ECN) – a highly structured, hierarchical and formalized enforcement network – drawing on structured interviews with 15 National Competition Agencies (NCAs) carried out in 2014. We find that the ECN’s formal internal structures afford all NCAs access to the agenda, foster perceptions of effectiveness, and promote informal sharing of expertise outside the network. Future research should incorporate internal structures into analyses of administrative networks.
+
+### Key figures in the paper
+
+![Figure 1: National Competition Authorities' assessment of opportunity structures in the ECN](opp_structures_JEPP2021.png)
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_Kassim_Wright_JEPP_2021,
+	author = {Francesca Pia Vantaggiato and Hussein Kassim and Kathryn Wright},
+	doi = {10.1080/13501763.2020.1737183},
+	journal = {Journal of European Public Policy},
+	number = {4},
+	pages = {571-590},
+	publisher = {Routledge},
+	title = {Internal network structures as opportunity structures: control and effectiveness in the European Competition Network},
+	volume = {28},
+	year = {2021},
+	bdsk-url-1 = {https://doi.org/10.1080/13501763.2020.1737183}}
+```
+

@@ -1,20 +1,20 @@
 ---
 title: "Projects & Policy Reports"
 listing:
-  - id: RISER
-    contents: "RISER/index.qmd"
+  - id: SLR
+    contents: "SLR/*/index.qmd"
     sort: "date desc"
     date-format: "MMMM, YYYY"
     categories: false
     type: default
   - id: Climate_security_EP
-    contents: "Climate_security_EP/index.qmd"
+    contents: "Climate_security_EP_2021/index.qmd"
     sort: "date desc"
     date-format: "MMMM, YYYY"
     categories: false
     type: default
   - id: FRM_UK
-    contents: "FRM_UK/index.qmd"
+    contents: "FRM_UK_2021-present/index.qmd"
     sort: "date desc"
     date-format: "MMMM, YYYY"
     categories: false
@@ -44,6 +44,8 @@ Thus far I have only worked on this topic for one project, linked below.
 
 This section lists the projects I have been involved in that concern the governance of climate adaptation to sea level rise. I began working on climate adaptation during my post-doc at University of California, Davis.
 
-::: {#RISER}
+::: {#SLR}
 :::
+
+
 :::

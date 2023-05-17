@@ -12,35 +12,29 @@ categories:
   - collaboration
   - energy
   - multilevel governance
-  - convergence
 ---
 
 ### Abstract
 
-The literature on transnational regulatory networks identified interdependence as their main rationale, downplaying domestic factors. Typically, relevant contributions use the word “network” only metaphorically. Yet, informal ties between regulators constitute networked structures of collaboration, which can be measured and explained. Regulators choose their frequent, regular network partners. What explains those choices? This article develops an Exponential Random Graph Model of the network of European national energy regulators to identify the drivers of informal regulatory networking. The results show that regulators tend to network with peers who regulate similarly organised market structures. Geography and European policy frameworks also play a role. Overall, the British regulator is significantly more active and influential than its peers, and a divide emerges between regulators from EU-15 and others. Therefore, formal frameworks of cooperation (i.e. a European Agency) were probably necessary to foster regulatory coordination across the EU.
-
+The literature on transnational regulatory networks identified interdependence as their main rationale, downplaying domestic factors. Typically, relevant contributions use the word "network" only metaphorically. Yet, informal ties between regulators constitute networked structures of collaboration, which can be measured and explained. Regulators choose their frequent, regular network partners. What explains those choices? This article develops an Exponential Random Graph Model of the network of European national energy regulators to identify the drivers of informal regulatory networking. The results show that regulators tend to network with peers who regulate similarly organised market structures. Geography and European policy frameworks also play a role. Overall, the British regulator is significantly more active and influential than its peers, and a divide emerges between regulators from EU-15 and others. Therefore, formal frameworks of cooperation (i.e. a European Agency) were probably necessary to foster regulatory coordination across the EU.
 
 ### Key figure in the paper
 
 ![Figure 1: European energy regulators' network structure 2014-2015](JPP_2019.jpeg)
 
-
-
 ### Citation
 
 ``` bibtex
 @article{Vantaggiato_JPP_2019,
-	author = {Francesca Pia Vantaggiato},
-	doi = {10.1017/S0143814X18000156},
-	journal = {Journal of Public Policy},
-	number = {3},
-	pages = {443--464},
-	title = {The drivers of regulatory networking: policy learning between homophily and convergence},
-	volume = {39},
-	year = {2019},
-	bdsk-url-1 = {https://doi.org/10.1017/S0143814X18000156}}
+    author = {Francesca Pia Vantaggiato},
+    doi = {10.1017/S0143814X18000156},
+    journal = {Journal of Public Policy},
+    number = {3},
+    pages = {443--464},
+    title = {The drivers of regulatory networking: policy learning between homophily and convergence},
+    volume = {39},
+    year = {2019},
+    bdsk-url-1 = {https://doi.org/10.1017/S0143814X18000156}}
 
 }
 ```
-
-

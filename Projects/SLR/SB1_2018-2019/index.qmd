@@ -1,0 +1,28 @@
+---
+title: "The Governance of Sea Level Rise for Transportation Corridors across California." 
+subtitle: ""
+date: 2020-06-01
+date-format: "MMMM, YYYY"
+author:    
+    - name: Francesca Pia Vantaggiato
+      url: francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Mark Lubell
+      url: https://www.kcl.ac.uk/people/christoph-meyer
+      affiliation: Department of Environmental Science & Policy, University of California Davis (United States)
+---
+
+
+This project investigated the impact of climate change on transportation infrastructure in California. The project examined specific transportation corridors that are impacted by sea level rise in three different areas of California - the San Francisco Bay Area, Los Angeles County and San Diego County - in comparative perspective.
+
+![Figure 1: Sea level rise in San Diego County](Del_Mar_SLR.jpg)
+
+
+Sea-level rise is a growing concern for coastal communities in California. Flooding and erosion, exacerbated by rising sea levels, hamper the viability of transportation and other critical infrastructure along California’s coasts and bays. Adapting transportation infrastructure to sea-level rise requires collaboration and coordination among policy stakeholders and governments at multiple geographic levels. Increasing collaboration invokes important questions about governance: What kind of governance challenges do stakeholders face in different areas? How are they trying to resolve them? What innovative solutions are emerging across the state? Most importantly, what can stakeholders from different areas learn from each others' experiences of collaborative governance?
+
+We adopted a theoretical policy learning perspective and carried out a comparative analysis of collaborative governance in areas where transportation infrastructure is expected to be most vulnerable to sea-level rise. Our initial assessment identified three focal regions: Highway 37 in the San Francisco Bay Area; the Los Angeles - San Diego railroad in San Diego County; and the Pacific Coast Highway in Los Angeles County (refining this list is part of the project).
+
+The project resulted in a **policy report** (linked [here](https://escholarship.org/uc/item/4rn5j20d)), a workshop with stakeholders held (via zoom) in April 2021, and a presentation to transportation planners and practitioners in the podcast Planning Horizons hosted by the State of California Department of Transportation. 
+
+The project was financed by a grant that Mark Lubell and I received from the Institute for Transportation Studies (ITS) at UC Davis, resulting from funding provided by State of California in relation to the SB1 bill. The grant amounted to $80.000 dollars. 
+
