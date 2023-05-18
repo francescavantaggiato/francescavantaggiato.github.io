@@ -1,5 +1,5 @@
 ---
-title: "Projects & Policy Reports"
+title: "Projects, Grants & Policy Reports"
 listing:
   - id: SLR
     contents: "SLR/*/index.qmd"
@@ -46,6 +46,4 @@ This section lists the projects I have been involved in that concern the governa
 
 ::: {#SLR}
 :::
-
-
 :::
