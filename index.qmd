@@ -17,6 +17,6 @@ Hello, and welcome to my website. My name is **Francesca Vantaggiato**. I am a L
 
 I study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue, trying to influence policy formulation, and/or making decisions.
 
-I am interested in research questions concerning social processes and mechanisms, collective action and social capital. I am particularly interested in answering these questions from the perspective of bureaucrats and policy-makers. 
+I am interested in research questions concerning social processes and mechanisms, collective action and social capital. I am particularly interested in answering these questions from the perspective of bureaucrats and policy-makers and particularly so in topics concerning environmental policy and infrastructure. 
 
 In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.
