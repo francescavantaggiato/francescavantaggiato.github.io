@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.475">
+<meta name="generator" content="quarto-1.3.353">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -17,7 +17,7 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
 </style>
@@ -150,11 +150,13 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>
-    .quarto-title-block .quarto-title-banner {
-      background: #E6E6FA;
-    }
-    </style>
 
+      .quarto-title-block .quarto-title-banner {
+        background: #E6E6FA;
+      }
+</style>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
@@ -170,54 +172,56 @@ ul.task-list li input[type="checkbox"] {
     <span class="navbar-title">Francesca Pia Vantaggiato</span>
     </a>
   </div>
+            <div id="quarto-search" class="" title="Search"></div>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html">
+    <a class="nav-link" href="../index.html" rel="" target="">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../Research/index.html" aria-current="page">
+    <a class="nav-link active" href="../Research/index.html" rel="" target="" aria-current="page">
  <span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../cv/index.html">
+    <a class="nav-link" href="../cv/index.html" rel="" target="">
  <span class="menu-text">CV</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Projects/index.html">
+    <a class="nav-link" href="../Projects/index.html" rel="" target="">
  <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../Teaching/index.html">
+    <a class="nav-link" href="../Teaching/index.html" rel="" target="">
  <span class="menu-text">Teaching</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/francescavantaggiato"><i class="bi bi-github" role="img" aria-label="GitHub">
+    <a class="nav-link" href="https://github.com/francescavantaggiato" rel="" target=""><i class="bi bi-github" role="img" aria-label="GitHub">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/FPVantaggiato"><i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/FPVantaggiato" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item compact">
-    <a class="nav-link" href="https://www.linkedin.com/in/francesca-pia-vantaggiato/"><i class="bi bi-linkedin" role="img">
+    <a class="nav-link" href="https://www.linkedin.com/in/francesca-pia-vantaggiato/" rel="" target=""><i class="bi bi-linkedin" role="img">
 </i> 
  <span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="https://orcid.org/0000-0003-1154-4540">
+    <a class="nav-link" href="https://orcid.org/0000-0003-1154-4540" rel="" target="">
  <span class="menu-text"><i class="ai  ai-orcid ai-lg" style="color:white"></i></span></a>
   </li>  
 </ul>
-              <div id="quarto-search" class="" title="Search"></div>
+            <div class="quarto-navbar-tools">
+</div>
           </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
@@ -258,16 +262,16 @@ ul.task-list li input[type="checkbox"] {
 <li><strong>European Union institutions</strong>, where I study the behaviour of European bureaucrats within the institutions as well as towards the outer world.</li>
 </ul>
 <p>The tabs below list only some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.</p>
-<div class="panel-tabset">
+<div class="tabset-margin-container"></div><div class="panel-tabset">
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Environmental governance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Regulation</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false">European Union institutions</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
 <p>This is my most recently developed and currently core research agenda. I am interested in cases where different kinds of policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. My research in this area is shaped by the work I have done in collaboration with Prof Mark Lubell (University of California, Davis) while working as a postdoc at the <a href="https://environmentalpolicy.ucdavis.edu/">Center for Environmental Policy and Behavior</a> (CEPB), which was focused on how polycentric governance systems respond to the emergence of new collective action problems.</p>
 <div id="listing-articles_envgov" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="climate adaptation,social-ecological systems,networks,SF Bay,sea level rise,simulations" data-listing-date-sort="1682924400000" data-listing-file-modified-sort="1684192035840" data-listing-reading-time-sort="1.53">
+<div class="quarto-post image-right" data-index="0" data-categories="climate adaptation,social-ecological systems,networks,SF Bay,sea level rise,simulations" data-listing-date-sort="1682895600000" data-listing-file-modified-sort="1684192035840" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html"> <img src="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/GEC_2023_img.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html"> <p class="card-img-top"><img src="articles_envgov/Vantaggiato_et_al_GEC_2023/GEC_2023_img.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_envgov/Vantaggiato_et_al_GEC_2023/index.html">
@@ -315,9 +319,9 @@ Francesca Pia Vantaggiato, Mark Lubell, Michelle Hummel, Aaron C. H. Chow, Alain
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="climate adaptation,networks,SF Bay,sea level rise,IRT" data-listing-date-sort="1671609600000" data-listing-file-modified-sort="1684271242807" data-listing-reading-time-sort="1.18">
+<div class="quarto-post image-right" data-index="1" data-categories="climate adaptation,networks,SF Bay,sea level rise,IRT" data-listing-date-sort="1671580800000" data-listing-file-modified-sort="1684271242807" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_envgov/Gmoseretal_RPR_2022/index.html"> <img src="../Research/articles_envgov/Gmoseretal_RPR_2022/RPR2022.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_envgov/Gmoseretal_RPR_2022/index.html"> <p class="card-img-top"><img src="articles_envgov/Gmoseretal_RPR_2022/RPR2022.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_envgov/Gmoseretal_RPR_2022/index.html">
@@ -362,9 +366,9 @@ Kyra Gmoser-Daskalakis, Tyler Scott, Mark Lubell, Francesca Pia Vantaggiato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="climate adaptation,sea level rise,networks,SF Bay,Affiliation Random Graph model" data-listing-date-sort="1645430400000" data-listing-file-modified-sort="1684192009741" data-listing-reading-time-sort="0.92">
+<div class="quarto-post image-right" data-index="2" data-categories="climate adaptation,sea level rise,networks,SF Bay,Affiliation Random Graph model" data-listing-date-sort="1645401600000" data-listing-file-modified-sort="1684192009741" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
 <div class="thumbnail">
-<p><a href="../Research/articles_envgov/Vantaggiato_Lubell_SN_2022/index.html"> <img src="../Research/articles_envgov/Vantaggiato_Lubell_SN_2022/SN_2022.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_envgov/Vantaggiato_Lubell_SN_2022/index.html"> <p class="card-img-top"><img src="articles_envgov/Vantaggiato_Lubell_SN_2022/SN_2022.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_envgov/Vantaggiato_Lubell_SN_2022/index.html">
@@ -409,9 +413,9 @@ Francesca Pia Vantaggiato, Mark Lubell
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="climate adaptation,sea level rise,policy forums,SF Bay,knowledge,survey" data-listing-date-sort="1641974400000" data-listing-file-modified-sort="1684192085537" data-listing-reading-time-sort="1.32">
+<div class="quarto-post image-right" data-index="3" data-categories="climate adaptation,sea level rise,policy forums,SF Bay,knowledge,survey" data-listing-date-sort="1641945600000" data-listing-file-modified-sort="1684192085537" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_envgov/Vantaggiato_Lubell_PSJ_2022/index.html"> <img src="../Research/articles_envgov/Vantaggiato_Lubell_PSJ_2022/VL_PSJ2022.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_envgov/Vantaggiato_Lubell_PSJ_2022/index.html"> <p class="card-img-top"><img src="articles_envgov/Vantaggiato_Lubell_PSJ_2022/VL_PSJ2022.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_envgov/Vantaggiato_Lubell_PSJ_2022/index.html">
@@ -469,13 +473,9 @@ No matching items
 <p>I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks. Several publications have resulted from that dissertation. Alongside my PhD, I did some research on how regulatory agencies use expertise in their decision-making depending on how politicised they are.</p>
 <div id="listing-articles_regulation" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="European regulatory networks,review" data-listing-date-sort="1669881600000" data-listing-file-modified-sort="1684348824193" data-listing-reading-time-sort="1.73">
+<div class="quarto-post image-right" data-index="0" data-categories="European regulatory networks,review" data-listing-date-sort="1669852800000" data-listing-file-modified-sort="1684348824193" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html"></a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_DeFrancesco_ERN_2022/index.html">
@@ -511,9 +511,9 @@ Francesca Pia Vantaggiato, Fabrizio De Francesco
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="European regulatory networks,learning,influence,Bayesian Exponential Random Graph Model" data-listing-date-sort="1664607600000" data-listing-file-modified-sort="1684348781323" data-listing-reading-time-sort="1.2">
+<div class="quarto-post image-right" data-index="1" data-categories="European regulatory networks,learning,influence,Bayesian Exponential Random Graph Model" data-listing-date-sort="1664578800000" data-listing-file-modified-sort="1684348781323" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html"> <img src="../Research/articles_regulation/Vantaggiato_JEPP_2022/JEPP2022_ERN_1998_2000.jpeg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html"> <p class="card-img-top"><img src="articles_regulation/Vantaggiato_JEPP_2022/JEPP2022_ERN_1998_2000.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_JEPP_2022/index.html">
@@ -555,9 +555,9 @@ Francesca Pia Vantaggiato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="European Competition Network,networks,interviews,agenda-setting" data-listing-date-sort="1617433200000" data-listing-file-modified-sort="1684349373014" data-listing-reading-time-sort="1.07">
+<div class="quarto-post image-right" data-index="2" data-categories="European Competition Network,networks,interviews,agenda-setting" data-listing-date-sort="1617404400000" data-listing-file-modified-sort="1684349373014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_regulation/Vantaggiato_Kassim_Wright_2021/index.html"> <img src="../Research/articles_regulation/Vantaggiato_Kassim_Wright_2021/opp_structures_JEPP2021.png" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_Kassim_Wright_2021/index.html"> <p class="card-img-top"><img src="articles_regulation/Vantaggiato_Kassim_Wright_2021/opp_structures_JEPP2021.png"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_Kassim_Wright_2021/index.html">
@@ -599,13 +599,9 @@ Francesca Pia Vantaggiato, Hussein Kassim, Kathryn Wright
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="regulatory agencies,discretion,expertise,United Kingdom" data-listing-date-sort="1601535600000" data-listing-file-modified-sort="1684349520695" data-listing-reading-time-sort="1.29">
+<div class="quarto-post image-right" data-index="3" data-categories="regulatory agencies,discretion,expertise,United Kingdom" data-listing-date-sort="1601506800000" data-listing-file-modified-sort="1684349520695" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<a href="../Research/articles_regulation/Mantzari_Vantaggiato_Law&amp;Policy_2020/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="../Research/articles_regulation/Mantzari_Vantaggiato_Law&amp;Policy_2020/index.html"></a></p>
+<p><a href="../Research/articles_regulation/Mantzari_Vantaggiato_Law&amp;Policy_2020/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Mantzari_Vantaggiato_Law&amp;Policy_2020/index.html">
@@ -647,13 +643,9 @@ Francesca Pia Vantaggiato, Despoina Mantzari
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="regulatory networks,collaboration,energy,multilevel governance" data-listing-date-sort="1570086000000" data-listing-file-modified-sort="1684348824171" data-listing-reading-time-sort="1.15">
+<div class="quarto-post image-right" data-index="4" data-categories="regulatory networks,collaboration,energy,multilevel governance" data-listing-date-sort="1570057200000" data-listing-file-modified-sort="1684348824171" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<a href="../Research/articles_regulation/Vantaggiato_JEPP_2019/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="../Research/articles_regulation/Vantaggiato_JEPP_2019/index.html"></a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_JEPP_2019/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_JEPP_2019/index.html">
@@ -695,13 +687,9 @@ Francesca Pia Vantaggiato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="regulatory networks,collaboration,Euro-Mediterranean,energy,multilevel governance" data-listing-date-sort="1567148400000" data-listing-file-modified-sort="1684348824182" data-listing-reading-time-sort="1.21">
+<div class="quarto-post image-right" data-index="5" data-categories="regulatory networks,collaboration,Euro-Mediterranean,energy,multilevel governance" data-listing-date-sort="1567119600000" data-listing-file-modified-sort="1684348824182" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<a href="../Research/articles_regulation/Vantaggiato_JCMS_2019/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="../Research/articles_regulation/Vantaggiato_JCMS_2019/index.html"></a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_JCMS_2019/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_JCMS_2019/index.html">
@@ -746,13 +734,9 @@ Francesca Pia Vantaggiato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="regulatory networks,collaboration,competition,energy,multilevel governance" data-listing-date-sort="1555225200000" data-listing-file-modified-sort="1684348562895" data-listing-reading-time-sort="1.105">
+<div class="quarto-post image-right" data-index="6" data-categories="regulatory networks,collaboration,competition,energy,multilevel governance" data-listing-date-sort="1555196400000" data-listing-file-modified-sort="1684348562895" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<a href="../Research/articles_regulation/Vantaggiato_Governance_2019/index.html">
-<div class="thumbnail-image">
-
-</div>
-</a><p><a href="../Research/articles_regulation/Vantaggiato_Governance_2019/index.html"></a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_Governance_2019/index.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_Governance_2019/index.html">
@@ -797,9 +781,9 @@ Francesca Pia Vantaggiato
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="European regulatory networks,collaboration,energy,multilevel governance" data-listing-date-sort="1555225200000" data-listing-file-modified-sort="1684348769142" data-listing-reading-time-sort="1.125">
+<div class="quarto-post image-right" data-index="7" data-categories="European regulatory networks,collaboration,energy,multilevel governance" data-listing-date-sort="1555196400000" data-listing-file-modified-sort="1684348769142" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_regulation/Vantaggiato_JPP_2019/index.html"> <img src="../Research/articles_regulation/Vantaggiato_JPP_2019/JPP_2019.jpeg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_regulation/Vantaggiato_JPP_2019/index.html"> <p class="card-img-top"><img src="articles_regulation/Vantaggiato_JPP_2019/JPP_2019.jpeg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_regulation/Vantaggiato_JPP_2019/index.html">
@@ -851,9 +835,9 @@ No matching items
 <p>During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof.&nbsp;Hussein Kassim, and others. That involvement has led to publications focused on EU bureaucrats and their behaviour within their organisations.</p>
 <div id="listing-articles_eu" class="quarto-listing quarto-listing-container-default">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="silos,European Commission,General Secretariat of the Council,blockmodels,networks" data-listing-date-sort="1633071600000" data-listing-file-modified-sort="1684349341431" data-listing-reading-time-sort="1.23">
+<div class="quarto-post image-right" data-index="0" data-categories="silos,European Commission,General Secretariat of the Council,blockmodels,networks" data-listing-date-sort="1633042800000" data-listing-file-modified-sort="1684349341431" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2">
 <div class="thumbnail">
-<p><a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html"> <img src="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/JEPP2021_silos_GSC.jpg" class="thumnail-image"> </a></p>
+<p><a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html"> <p class="card-img-top"><img src="articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/JEPP2021_silos_GSC.jpg"  class="thumbnail-image card-img"/></p> </a></p>
 </div>
 <div class="body">
 <a href="../Research/articles_eu/Vantaggiato_Kassim_Connolly_JEPP_2021/index.html">
@@ -938,9 +922,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -1005,6 +1003,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -1048,6 +1132,9 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left"><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2013-2023 Francesca Vantaggiato</span></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
     <div class="nav-footer-right"><span class="faux-block">Made with <i class="fa-brands fa-r-project" aria-label="r-project"></i> and <a href="https://quarto.org/">Quarto</a></span> <span class="faux-block">Website design inspired by <a href="https://allisonhorst.github.io/">Allison Horst</a> and <a href="https://www.andrewheiss.com/">Andrew Heiss</a></span> <span class="faux-block"><a href="https://github.com/francescavantaggiato/francescavantaggiato.github.io">View the source at <i class="fa-brands fa-github" aria-label="github"></i> GitHub</a></span></div>
   </div>
 </footer>
