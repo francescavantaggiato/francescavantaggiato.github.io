@@ -1,6 +1,12 @@
 ---
 title: "Research & Publications"
 listing:
+  - id: articles_climateadaptation
+    contents: "articles_flood/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
   - id: articles_envgov
     contents: "articles_envgov/*/index.qmd"
     sort: "date desc"

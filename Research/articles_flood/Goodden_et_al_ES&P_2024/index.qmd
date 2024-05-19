@@ -1,0 +1,46 @@
+---
+title: "Does flood risk funding protect the most vulnerable? A case study of England."
+subtitle: "2024, *Environmental Science & Policy*"
+date: 2024-05-01
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Anna Goodden
+    url: https://www.kcl.ac.uk/people/anna-goodden
+    affiliation: Department of Political Economy & Department of Geography, King's College London
+  - name: James Porter
+    url: https://www.kcl.ac.uk/people/james-porter
+    affiliation: Department of Geography, King's College London
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories: 
+  - flood risk management
+  - United Kingdom
+  - social vulnerability
+---
+
+### Abstract
+
+Not only has the frequency and severity of flooding increased under climate change, but which communities are at-risk and how those risks are distributed within communities has changed too. This realisation points to an important interplay between exposure (risk) and social vulnerability. Who is vulnerable? Answering this question is far from straightforward as different vulnerability indicators identify different groups across different scales. This paper addresses this issue. Using the empirical case of England, the spatial distribution of flood risk at different administrative scales is analysed in relation to the Environment Agency (EA) allocation of flood funding between 2015 and 2021. We find that Upper-tier Local Authority Districts with higher levels of both flood risk and social vulnerability received more funding in the period considered. Yet, that is not the scale at which flood scheme funding decisions are made. Flood schemes are decided at the local level, but funding data for smaller administrative scales is not available. Different understandings of vulnerability, the Modifiable Areal Unit Problem (MAUP), and issues around data transparency and availability in flood risk management, need to be urgently addressed.
+
+### Key figure from the paper
+
+![Figure 1: Flood spending in high risk areas and social vulnerability](FP3_IMD_interaction.jpg)
+
+### Citation
+
+``` bibtex
+@article{ESP24,
+    author = {Anna E. Goodden and James J. Porter and Francesca Pia Vantaggiato},
+    title = {Does flood risk funding protect the most vulnerable? A case study of England.},
+    journal = {Environmental Science & Policy},
+    volume = {157},
+    number = {103781},
+    pages = {},
+    date  = {2024},
+    publisher = {},
+    doi = {},
+    URL = {}
+}
+```
