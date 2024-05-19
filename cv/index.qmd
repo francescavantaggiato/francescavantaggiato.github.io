@@ -6,7 +6,7 @@ title-block-banner: "#E6E6FA"
 published-title: CV last updated
 engine: knitr 
 cv:
-  pdf: "FPV_CV.pdf"
+  pdf: "fpv_CV.pdf"
 ---
 
 ```{css echo=FALSE}
