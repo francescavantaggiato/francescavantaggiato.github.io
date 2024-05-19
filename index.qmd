@@ -13,10 +13,11 @@ about:
 page-layout: full
 ---
 
+
 Hello, and welcome to my website. My name is **Francesca Vantaggiato**. I am a Senior Lecturer (Associate Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King's College London (UK).
 
-I study how policy actors (policy-makers, bureaucrats, stakeholders) use relationships to manage uncertainty when addressing a new policy issue, trying to influence policy formulation, and/or making decisions.
+I study how policy-makers use relationships to grapply with change and uncertainty, particularly for policy issues concerning the environment and infrastructure.
 
-I am interested in research questions concerning social processes and mechanisms, collective action and social capital. I am particularly interested in answering these questions from the perspective of bureaucrats and policy-makers and particularly so in topics concerning environmental issues and infrastructure.
+At present, my research agenda is focused on *climate adaptation* - one of the greatest challenges of our time, with profound social, political and redistributive implications.
 
-At present, my research agenda is focused on *environmental governance*, meaning all of those situations in which a range of policy actors faces an environmental issue that they all want to see addressed, but none can do so on their own. In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.
+In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.
