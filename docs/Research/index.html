@@ -75,6 +75,34 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-articles_flood .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-subtitle','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-subtitle","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-articles_flood'] = new List('listing-articles_flood', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-articles_envgov .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -283,7 +311,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(13)</span></div><div class="category" data-category="European Commission">European Commission <span class="quarto-category-count">(1)</span></div><div class="category" data-category="European Union">European Union <span class="quarto-category-count">(6)</span></div><div class="category" data-category="European neighbourhood">European neighbourhood <span class="quarto-category-count">(1)</span></div><div class="category" data-category="United Kingdom">United Kingdom <span class="quarto-category-count">(1)</span></div><div class="category" data-category="climate adaptation">climate adaptation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="competition authorities">competition authorities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multilevel governance">multilevel governance <span class="quarto-category-count">(6)</span></div><div class="category" data-category="multilevel models">multilevel models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="networks">networks <span class="quarto-category-count">(11)</span></div><div class="category" data-category="policy forums">policy forums <span class="quarto-category-count">(1)</span></div><div class="category" data-category="polycentric governance">polycentric governance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regulatory agencies">regulatory agencies <span class="quarto-category-count">(7)</span></div><div class="category" data-category="sea level rise">sea level rise <span class="quarto-category-count">(4)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(14)</span></div><div class="category" data-category="European Commission">European Commission <span class="quarto-category-count">(1)</span></div><div class="category" data-category="European Union">European Union <span class="quarto-category-count">(6)</span></div><div class="category" data-category="European neighbourhood">European neighbourhood <span class="quarto-category-count">(1)</span></div><div class="category" data-category="United Kingdom">United Kingdom <span class="quarto-category-count">(2)</span></div><div class="category" data-category="climate adaptation">climate adaptation <span class="quarto-category-count">(4)</span></div><div class="category" data-category="competition authorities">competition authorities <span class="quarto-category-count">(1)</span></div><div class="category" data-category="flood risk management">flood risk management <span class="quarto-category-count">(1)</span></div><div class="category" data-category="multilevel governance">multilevel governance <span class="quarto-category-count">(6)</span></div><div class="category" data-category="multilevel models">multilevel models <span class="quarto-category-count">(1)</span></div><div class="category" data-category="networks">networks <span class="quarto-category-count">(11)</span></div><div class="category" data-category="policy forums">policy forums <span class="quarto-category-count">(1)</span></div><div class="category" data-category="polycentric governance">polycentric governance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="regulatory agencies">regulatory agencies <span class="quarto-category-count">(7)</span></div><div class="category" data-category="sea level rise">sea level rise <span class="quarto-category-count">(4)</span></div><div class="category" data-category="social vulnerability">social vulnerability <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -862,7 +890,52 @@ No matching items
 
 
 
-</main> <!-- /main -->
+<div class="quarto-listing quarto-listing-container-default" id="listing-articles_flood">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="flood risk management,United Kingdom,social vulnerability" data-listing-date-sort="1714514400000" data-listing-file-modified-sort="1716130437225" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="285">
+<div class="thumbnail">
+<p><a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external"></a></p><a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external">
+<p class="card-img-top"><img src="articles_flood/Goodden_et_al_ES&P_2024/FP3_IMD_interaction.jpg"  class="thumbnail-image card-img"/></p>
+</a><p><a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external">Does flood risk funding protect the most vulnerable? A case study of England.</a>
+</h3>
+<div class="listing-subtitle">
+<a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external">2024, <em>Environmental Science &amp; Policy</em></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('flood risk management'); return false;">
+flood risk management
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('United Kingdom'); return false;">
+United Kingdom
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('social vulnerability'); return false;">
+social vulnerability
+</div>
+</div>
+<div class="listing-description">
+<a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external">Not only has the frequency and severity of flooding increased under climate change, but which communities are at-risk and how those risks are distributed within communities…</a>
+</div>
+</div>
+<div class="metadata">
+<a href="../Research/articles_flood/Goodden_et_al_ES&amp;P_2024/index.html" class="no-external">
+<div class="listing-date">
+May, 2024
+</div>
+<div class="listing-author">
+Anna Goodden, James Porter, Francesca Pia Vantaggiato
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

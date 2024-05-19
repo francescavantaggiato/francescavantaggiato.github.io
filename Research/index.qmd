@@ -1,7 +1,7 @@
 ---
 title: "Research & Publications"
 listing:
-  - id: articles_climateadaptation
+  - id: articles_flood
     contents: "articles_flood/*/index.qmd"
     sort: "date desc"
     date-format: "MMMM, YYYY"
@@ -31,18 +31,25 @@ include-back-link: false
 toc-location: right
 ---
 
-My research interests span public policy, governance, public administration. My research agenda comprises three main strands:
+My research agenda comprises three main strands:
 
--   **environmental governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits;
--   **regulation**, where I study how regulators influence the policy agenda; and
--   **European Union institutions**, where I study the behaviour of European bureaucrats within the institutions as well as towards the outer world.
+-   **environmental policy & governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits of climate adaptation;
+-   **regulation**, where I study how regulators collaborate to influence the policy agenda; and
+-   **European Union institutions**, where I study the behaviour of European bureaucrats within their institutions.
 
-The tabs below list only some key recent publications in each of these three fields. For a full list of my publications, see my CV in the CV tab.
+The tabs below list only some key recent publications in each of these fields. For a full list of my publications, see my CV in the CV tab.
 
 ::: panel-tabset
+### Climate adaptation & floods
+
+This is my most recently developed and currently core research agenda. I study planning and spending for flood risk management in England and its interplay with climate adaptation. A lot of this research is done in collaboration with [James Porter](https://www.kcl.ac.uk/people/james-porter), who is based at the Department of Geography, King's College London.
+
+::: {#articles_flood}
+:::
+
 ### Environmental governance
 
-This is my most recently developed and currently core research agenda. I am interested in cases where different kinds of policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. My research in this area is shaped by the work I have done in collaboration with Prof Mark Lubell (University of California, Davis) while working as a postdoc at the [Center for Environmental Policy and Behavior](https://environmentalpolicy.ucdavis.edu/) (CEPB), which was focused on how polycentric governance systems respond to the emergence of new collective action problems.
+Here I study how policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. My research in this area is shaped by the collaboration with Prof Mark Lubell (University of California, Davis) at the [Center for Environmental Policy and Behavior](https://environmentalpolicy.ucdavis.edu/) (CEPB), and is focused on how polycentric governance systems respond to new collective action problems.
 
 ::: {#articles_envgov}
 :::
