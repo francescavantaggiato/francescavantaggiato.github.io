@@ -20,9 +20,7 @@ author:
 categories: 
   - climate adaptation
   - networks
-  - SF Bay
   - sea level rise
-  - IRT
 ---
 
 ### Abstract

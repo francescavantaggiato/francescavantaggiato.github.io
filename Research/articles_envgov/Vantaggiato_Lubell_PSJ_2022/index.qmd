@@ -15,9 +15,8 @@ categories:
   - climate adaptation
   - sea level rise
   - policy forums
-  - SF Bay
-  - knowledge
-  - survey
+  - multilevel models
+
 ---
 
 ### Abstract

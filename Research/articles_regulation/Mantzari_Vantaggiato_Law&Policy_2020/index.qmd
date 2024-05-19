@@ -12,8 +12,6 @@ author:
       affiliation: Faculty of Laws, University College London (UK)
 categories: 
   - regulatory agencies
-  - discretion
-  - expertise
   - United Kingdom
 ---
 

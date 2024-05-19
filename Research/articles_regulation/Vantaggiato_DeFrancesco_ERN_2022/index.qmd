@@ -10,8 +10,9 @@ author:
     - name: Fabrizio De Francesco
       affiliation: University of Strathclyde, Glasgow (UK)
 categories: 
-  - European regulatory networks
-  - review
+  - regulatory agencies
+  - networks
+
 ---
 
 ### Abstract

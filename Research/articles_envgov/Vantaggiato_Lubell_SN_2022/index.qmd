@@ -15,8 +15,7 @@ categories:
   - climate adaptation
   - sea level rise
   - networks
-  - SF Bay
-  - Affiliation Random Graph model
+  - polycentric governance
 ---
 
 ### Abstract

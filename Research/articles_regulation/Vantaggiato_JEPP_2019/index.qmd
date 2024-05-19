@@ -8,10 +8,10 @@ author:
       url: francescavantaggiato.github.io
       affiliation: Department of Political Economy, King's College London (UK)
 categories: 
-  - regulatory networks
-  - collaboration
-  - energy
+  - regulatory agencies
+  - networks
   - multilevel governance
+  - European Union
 ---
 
 ### Abstract

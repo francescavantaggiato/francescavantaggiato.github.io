@@ -14,10 +14,10 @@ author:
       url: 
       affiliation: York Law School, University of York (UK)
 categories: 
-  - European Competition Network
+  - competition authorities
   - networks
-  - interviews
-  - agenda-setting
+  - multilevel governance
+  - European Union
 ---
 
 ### Abstract

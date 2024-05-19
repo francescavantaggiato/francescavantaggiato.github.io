@@ -14,10 +14,7 @@ author:
       url: https://research-portal.uea.ac.uk/en/persons/sara-connolly
       affiliation: Norwich Business School, University of East Anglia (UK)
 categories: 
-  - silos
   - European Commission
-  - General Secretariat of the Council
-  - blockmodels
   - networks
 ---
 

@@ -22,11 +22,8 @@ author:
     affiliation: NYU Abu Dhabi, United Arab Emirates
 categories: 
   - climate adaptation
-  - social-ecological systems
   - networks
-  - SF Bay
   - sea level rise
-  - simulations
 ---
 
 ### Abstract
