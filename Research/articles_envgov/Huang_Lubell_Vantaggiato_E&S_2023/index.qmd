@@ -1,20 +1,20 @@
 ---
-title: "Geographic Scale Dependency and the Structure of Climate Adaptation Policy Networks in San Francisco Bay"
+title: "Geographic Scale Dependency and the Structure of Climate Adaptation Policy Networks in San Francisco Bay."
 subtitle: "2023, *Ecology & Society*"
 date: 2023-12-01
 date-format: "MMMM, YYYY"
 title-block-banner: false
 author:
- - name: Chien-shih Huang
-    url: francescavantaggiato.github.io
-    affiliation: Department of Public Administration & Public Policy, University of Taiwan
- - name: Mark Lubell
+  - name: Chien-shih Huang
+    url: https://chienshih.com/
+    affiliation: National Taiwan University
+  - name: Mark Lubell
     url: https://environmentalpolicy.ucdavis.edu/
     affiliation: Department of Environmental Science & Policy, University of California Davis, United States
- - name: Francesca Pia Vantaggiato
+  - name: Francesca Pia Vantaggiato
     url: francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
-categories: 
+categories:
   - climate adaptation
   - networks
   - sea level rise
