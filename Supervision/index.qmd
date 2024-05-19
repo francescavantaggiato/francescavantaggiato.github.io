@@ -1,0 +1,49 @@
+---
+title: "Supervision"
+execute:
+  echo: false
+  warning: false
+title-block-banner: "#E6E6FA"
+page-layout: full
+include-back-link: false
+toc-location: right
+---
+
+At King's, I have the pleasure of supervising the following PhD students.
+
+As primary or co-primary supervisor (students listed in order of seniority):
+
+### Santiago Quintero 
+
+Santiago's dissertation focuses on ...
+
+Santiago is a fully-funded student on a LISS Doctoral Training Partnership (LISS-DTP) scholarship for 2021-2024
+
+![Figure 1: Bayesian ERG model of network structure 1998-2000](JEPP2022_ERN_1998_2000.jpeg)
+
+
+### Yuetong Guo
+
+Yuetong's dissertation focuses on ...
+
+
+### Anna Goodden
+
+Anna's dissertation focuses on ...
+
+Anna's doctoral studies are funded by a LISS-DTP CASE studentship we obtained in collaboration with the Environment Agency for 2023-2026.
+
+### William Edmonds
+
+William's dissertation will focus on ...
+
+William is a fully-funded student on a LISS Doctoral Training Partnership (LISS-DTP) scholarship for 2024-2027.
+
+
+As secondary supervisor:
+
+### Matteo Nebbiai
+
+Matteo's dissertation focuses on ...
+
+Matteo is a fully-funded student on a LISS Doctoral Training Partnership (LISS-DTP) scholarship for 2021-2024

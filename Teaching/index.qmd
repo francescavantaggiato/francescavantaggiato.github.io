@@ -32,7 +32,7 @@ Soon in its fourth iteration, the module has seen student numbers grow from 25 i
 
 library(ggplot2)
 library(grid)
-envgov_students_growth <- data.frame(year = c("2020-2021", "2021-2022", "2022-2023", "2023-2024"), student_numbers = c(25, 55, 67, 133))
+envgov_students_growth <- data.frame(year = c("2020-2021", "2021-2022", "2022-2023", "2023-2024"), student_numbers = c(25, 55, 67, 148))
 
 envgov_students_growth$year = factor(envgov_students_growth$year, levels=sort(unique(envgov_students_growth$year)), ordered=TRUE)
 
@@ -50,15 +50,15 @@ cowplot::ggdraw(p2) +
 
 ```
 
-Part of this increase is due to factors endogenous to the mess that is Higher Education in the UK right now. Still, I take this growing interest in this kind of work to show that students understand that dealing with environmental problems is an inter-disciplinary enterprise, combining politics, political economy, public policy, engineering and climate science.
+I take this growing interest to show that students understand that dealing with environmental problems is an inter-disciplinary enterprise, combining politics, political economy, public policy, engineering and climate science.
 
 -   In connection with this module, I have created a Shiny app that is meant as an introduction to social network analysis and the way it's used in environmental governance studies. The app is called [VisualGov](https://fpvdpe.shinyapps.io/visual_gov/) and it is currently in development.
 
-The MA level **Climate policy and the energy transition** module I co-convene with [Tomas Maltby](https://scholar.google.com/citations?user=1ZMuxKEAAAAJ&hl=en) at King's is a policy-focused module stemming from the realization that climate policy and energy policy are becoming the same policy topic. It will be offered for the first time in 2023/2024.
+The MA level **Climate policy and the energy transition** module I co-convene with [Tomas Maltby](https://scholar.google.com/citations?user=1ZMuxKEAAAAJ&hl=en) at King's is a policy-focused module stemming from the realization that climate policy and energy policy are becoming the same policy topic. It was offered for the first time in 2023/2024.
 
 ### Comparative Public Policy
 
-The MA module in **Comparative Public Policy** is of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 90 students. 
+The MA module in **Comparative Public Policy** is of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 70 students. 
 
 
 :::

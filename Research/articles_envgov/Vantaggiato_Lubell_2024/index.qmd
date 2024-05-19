@@ -1,0 +1,41 @@
+---
+title: "Governing climate adaptation: sea level rise in the San Francisco Bay Area."
+subtitle: "2024, *Cambridge University Press*"
+date: 2024-02-01
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+  - name: Mark Lubell
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+categories: 
+  - climate adaptation
+  - sea level rise
+  - polycentric governance
+
+---
+
+### Abstract
+
+How do polycentric governance systems respond to new collective action problems? This Element tackles this question by studying the governance of adaptation to sea level rise in the San Francisco Bay Area of California. Like climate mitigation, climate adaptation has public good characteristics and therefore poses collective action problems of coordination and cooperation. The Element brings together the literature on adaptation planning with the Ecology of Games framework, a theory of polycentricity combining rational choice institutionalism with social network theory, to investigate how policy actors address the collective action problems of climate adaptation: the key barriers to coordination they perceive, the collaborative relationships they form, and their assessment of the quality of the cooperation process in the policy forums they attend. Using both qualitative and quantitative data and analysis, the Element finds that polycentric governance systems can address coordination problems by fostering the emergence of leaders who reduce transaction and information costs. Polycentric systems, however, struggle to address issues of inequality and redistribution.
+
+### Key figure from the paper
+
+![Figure 6: Concern about short- and long-term consequences of SLR among policy actors in SF Bay](figure6_concern_st_lt.jpg)
+
+### Citation
+
+``` bibtex
+@article{Vantaggiato_Lubell_CUP_2024,
+    author = {Francesca Pia Vantaggiato and Mark Lubell},
+    journal = {Cambridge Elements in Organizational Responses to Climate Change},
+    title = {Governing climate adaptation: easier said than done. Sea level rise in the San Francisco Bay Area.},
+    volume = {},
+    number = {},
+    pages = {},
+    publisher = {Cambridge University Press},
+    year = {2024}}
+```

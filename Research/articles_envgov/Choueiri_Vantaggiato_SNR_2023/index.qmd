@@ -1,0 +1,43 @@
+---
+title: "Informal water tankers, their network structure, and drivers of cooperation and competition: a case study in Beirut, Lebanon."
+subtitle: "2023, *Society & Natural Resources*"
+date: 2023-08-12
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Yasmina Choueiri
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories: 
+  - water scarcity
+  - networks
+  - climate adaptation
+---
+
+### Abstract
+
+Areas with chronic water shortages rely on informal water tankers for daily water needs. Informal tankers operate outside the reach of the state, hence the quality and price of the services they provide and the pressure their activities inflict on water systems go largely unchecked. Informal tankers use their social relationships to manage water sources and operate like an informal network. Yet, little is known about the drivers that explain their relationships and their impact on the overall water system. We investigate these issues in the empirical case of Beirut (Lebanon) using 20 semi-structured interviews and social network analysis. We find that: cooperative and competitive relationships between tankers give rise to different network structures; the drivers of cooperation and competition are religion and seniority in the market; climate change affects informal water markets by increasing competition for wells and clients. We propose recommendations for practitioners and policy-makers, and future research.
+
+### Key figure from the paper
+
+![Figure 1: Networks of informal water tankers in Beirut (Lebanon)](networks.jpg)
+
+### Citation
+
+``` bibtex
+@article{SNR23,
+    author = {Yasmina Choueiri and Francesca Pia Vantaggiato},
+    title = {Informal water tankers, their network structure, and drivers of cooperation and competition: a case study in Beirut, Lebanon.},
+    journal = {Society & Natural Resources},
+    volume = {In press},
+    number = {},
+    pages = {},
+    date  = {2023},
+    publisher = {},
+    doi = {},
+    URL = {}
+}
+```

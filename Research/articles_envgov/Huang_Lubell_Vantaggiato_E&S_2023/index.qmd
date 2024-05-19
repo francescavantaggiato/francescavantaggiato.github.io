@@ -1,0 +1,47 @@
+---
+title: "Geographic Scale Dependency and the Structure of Climate Adaptation Policy Networks in San Francisco Bay"
+subtitle: "2023, *Ecology & Society*"
+date: 2023-12-01
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+ - name: Chien-shih Huang
+    url: francescavantaggiato.github.io
+    affiliation: Department of Public Administration & Public Policy, University of Taiwan
+ - name: Mark Lubell
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+ - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories: 
+  - climate adaptation
+  - networks
+  - sea level rise
+  - polycentric governance
+---
+
+### Abstract
+
+Research on collaborative governance, polycentric governance, and policy networks shares the hypothesis that policy networks emerge to solve collective-action problems across multiple levels of geographic scale. Policy networks provide social capital in the form of information and trust-based relationships, which enable the involved actors to learn and cooperate to address environmental risks. We argue that policy networks in polycentric governance systems are scale dependent in both structure and function. The structure of policy networks varies across levels of geographic scale, with regional-level networks presenting more structural features that support learning and cooperation. Also, local networks are more responsive to the varying risks of sea-level rise in different localities. As policy networks scale up to higher levels of geographic scale, network structures become more homogenous, driven by the regional actors’ concern for the well-being of entire regions. Drawing from a stakeholder survey in the context of sea-level rise and climate adaptation networks in San Francisco Bay, we define networks at multiple geographic scale based on the level of policy actors’ engagement with local coastal planning units. Our social network analysis findings underscore that regional actors are crucial sources of social capital for solving climate adaptation collective-action problems and that sea-level rise vulnerability is especially associated with the emergence of bonding social capital. Environmental risk, such as sea-level rise, will urge the need for collective actions across geographic scales, and our studies suggest that regional actors can provide public good across regions and reduce the transaction costs of building policy networks between disadvantaged communities.
+
+### Key figure from the paper
+
+![Figure 4: Network size and density across scales](nw_size_density.jpg)
+
+### Citation
+
+``` bibtex
+@article{Huang_Lubell_Vantaggiato_E&S_2023, 
+  author = {Chien-shih Huang and Mark Lubell and Francesca Pia Vantaggiato},
+  title = {Geographic scale dependency and the structure of climate adaptation policy networks in San Francisco Bay.},
+  journal = {Ecology & Society},
+  volume = {28},
+  number = {4},
+  pages = {},
+  date  = {2023},
+  publisher = {},
+  doi = {},
+  URL = {}
+}
+```
