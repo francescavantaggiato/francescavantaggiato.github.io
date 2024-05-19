@@ -12,8 +12,6 @@ about:
       
 page-layout: full
 ---
-
-
 Hello, and welcome to my website. My name is **Francesca Vantaggiato**. I am a Senior Lecturer (Associate Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King's College London (UK).
 
 I study how policy-makers use relationships to grapply with change and uncertainty, particularly for policy issues concerning the environment and infrastructure.
