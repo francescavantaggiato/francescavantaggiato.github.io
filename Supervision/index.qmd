@@ -11,7 +11,8 @@ toc-location: right
 
 At King's, I have the pleasure of supervising the following PhD students.
 
-###As primary or co-primary supervisor (students listed in order of seniority):
+**As primary or co-primary supervisor (students listed in order of seniority)**
+
 
 **Santiago Quintero**
 
@@ -32,7 +33,8 @@ William's doctoral studies are funded by a London Interdisciplinary Social Scien
 
 William's dissertation will focus on the evolution of transportation policy in the UK from the privatizations of the 1980s till the present day, and their effect on social mobility.
 
-###As secondary supervisor:
+**As secondary supervisor:**
+
 
 **Matteo Nebbiai**
 
