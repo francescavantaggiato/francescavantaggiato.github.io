@@ -3,7 +3,7 @@ title: "Supervision"
 execute:
   echo: false
   warning: false
-title-block-banner: "#E6E6FA"
+title-block-banner: "#00008B"
 page-layout: full
 include-back-link: false
 toc-location: right

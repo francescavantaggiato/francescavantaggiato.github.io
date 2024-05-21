@@ -14,10 +14,10 @@ website:
         text: CV
       - href: Projects/index.qmd
         text: Projects
-      - href: Teaching/index.qmd
-        text: Teaching
       - href: Supervision/index.qmd
         text: Supervision
+      - href: Teaching/index.qmd
+        text: Teaching
     right:
       - icon: github
         href: https://github.com/francescavantaggiato
