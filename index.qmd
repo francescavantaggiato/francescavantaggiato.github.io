@@ -19,4 +19,4 @@ I study how policy-makers use relationships to grapple with change and uncertain
 
 At present, my research agenda is focused on **climate adaptation** - one of the greatest challenges of our time, with profound social, political and redistributive implications - in the context of **flood risk management** in the UK.
 
-In my research, I typically rely on some mix of social network analysis, interviews, regressions and computational social science methods.
+In my research, I typically rely on some mix of social network analysis, interviews, regression and computational social science methods.
