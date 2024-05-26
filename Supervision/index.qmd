@@ -1,43 +1,22 @@
 ---
 title: "Supervision"
-execute:
-  echo: false
-  warning: false
-title-block-banner: "#E6E6FA"
+listing:
+  - id: primary
+    contents: "primary/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+  - id: secondary
+    contents: "secondary/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
 page-layout: full
+title-block-banner: "#E6E6FA"
 include-back-link: false
 toc-location: right
 ---
 
-At King's, I have the pleasure of supervising the following PhD students.
-
-**As primary or co-primary supervisor:**
-
-Students listed in order of seniority. 
-
-**Santiago Quintero**
-
-Santiago's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2021-2024. His dissertation investigates the effects of political patronage on environmental governance networks in the public sector in Colombia.
-
-
-**Yuetong Guo**
-
-Yuetong's dissertation focuses on the impact of inter-institutional relationships between the Council, the Parliament and the Commission on the EU's stance on global climate issues. 
-
-**Anna Goodden**
-
-Anna's doctoral studies are funded by a LISS-DTP CASE studentship we obtained in collaboration with the Environment Agency for 2023-2026. Her dissertation focuses on resilience in the context of flood risk management in England: how to define and measure it, and what are the implications of different approaches.
-
-**William Edmonds**
-
-William's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2024-2027.
-
-William's dissertation will focus on the evolution of transportation policy in the UK from the privatizations of the 1980s till the present day, and their effect on social mobility.
-
-**As secondary supervisor:**
-
-
-**Matteo Nebbiai**
-
-Matteo's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2022-2025. His dissertation focuses on the politics of regulating digital markets and data privacy in the EU.
-
+I am interested in supervising doctoral and post-doctoral students who want to work on the politics of public policy, climate adaptation, or environmental governance using quantitative or mixed methods approaches. 
