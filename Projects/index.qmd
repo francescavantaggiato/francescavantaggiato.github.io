@@ -25,7 +25,7 @@ include-back-link: false
 toc-location: right
 ---
 
-In the past few years, I have been working on projects dealing with climate change adaptation. These projects have resulted not only in academic publications but also in policy reports aimed at practitioners, who were also often research participants. The common theme of these projects is the interplay between the climate science and the policy and political implications of adapting to a changing climate, the decisions to be made and how those affect the existing balance between winners and losers.
+In the past few years, I have been working on projects dealing with climate change adaptation. These projects have resulted in policy reports aimed at practitioners, who were also often involved in the design of the research. The common theme of these projects is the interplay between climate risks and the policy and political implications of adaptation, the decisions to be made and how those affect the existing balance between winners and losers.
 
 ::: panel-tabset
 ### Flood risk management
