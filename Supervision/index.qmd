@@ -7,7 +7,7 @@ include-back-link: false
 
 I am interested in supervising doctoral and post-doctoral students who want to work on the politics of public policy, regulation, climate adaptation, or environmental governance using quantitative or mixed methods approaches.  
 
-Below are the profiles of the doctoral students I currently supervise.
+Below are the profiles of the doctoral and post-doctoral students I currently supervise.
 
 ::: panel-tabset
 ### As primary supervisor
