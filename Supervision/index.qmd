@@ -3,16 +3,31 @@ title: "Supervision"
 page-layout: full
 title-block-banner: "#E6E6FA"
 include-back-link: false
+format: 
+  html:
+    code-fold: true
+engine: knitr
+include-in-header: 
+        text: |
+          <style>
+          h3 {
+          color: #949799;
+          }
+          </style>
 ---
 
 I am interested in supervising doctoral and post-doctoral students who want to work on the politics of public policy, regulation, climate adaptation, or environmental governance using quantitative or mixed methods approaches.  
 
-Below are the profiles of the doctoral and post-doctoral students I currently supervise.
+Below are the profiles of the doctoral and post-doctoral students I currently supervise, listed in order of seniority.
 
-::: panel-tabset
+<!--  https://stackoverflow.com/questions/74162212/two-columns-layout-in-quarto -->
+
+:::: {.columns}
+
+::: {.column width="30%"}
 ### As primary supervisor
 
-PhD students listed in order of seniority. 
+---------------------------
 
 **Santiago Quintero**
 
@@ -20,11 +35,17 @@ Santiago's doctoral studies are funded by a London Interdisciplinary Social Scie
 
 His dissertation investigates the effects of political patronage on environmental governance networks in the public sector in Colombia.
 
+---------------------------
+
 **Yuetong Guo**
 
 Yuetong's joined King's as a PhD student in 2022. 
 
-Her dissertation focuses on the impact of inter-institutional relationships between the Council, the Parliament and the Commission on the EU's stance on global climate issues. 
+Her dissertation focuses on the impact of inter-institutional relationships between the Council, the Parliament and the Commission on the EU's stance on global climate issues.
+
+
+---------------------------
+
 
 **Anna Goodden**
 
@@ -32,15 +53,23 @@ Anna's doctoral studies are funded by a LISS-DTP CASE studentship we obtained in
 
 Her dissertation focuses on resilience in the context of flood risk management in England: how to define and measure it, and what are the implications of different approaches.
 
+---------------------------
+
 **William Edmonds**
 
 William's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2024-2027.
 
 William's dissertation will focus on the evolution of transportation policy in the UK from the privatizations of the 1980s till the present day, and their effect on social mobility.
+:::
 
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
 
+::: {.column width="30%"}
 ### As secondary supervisor
 
+---------------------------
 
 **Matteo Nebbiai**
 
@@ -48,14 +77,31 @@ Matteo's doctoral studies are funded by a London Interdisciplinary Social Scienc
 
 His dissertation focuses on the politics of regulating digital markets and data privacy in the EU.
 [Matteo's personal website](https://www.matteonebbiai.site/)
+:::
 
+::: {.column width="5%"}
+<!-- empty column to create gap -->
+:::
 
+::: {.column width="30%"}
 ### Post-docs
+
+---------------------------
 
 **Emma Yule** 
 
 Emma joined King's in March 2024 as a post-doctoral researcher funded by a King's Climate & Sustainability Seed Grant that [James Porter](https://www.kcl.ac.uk/people/james-porter) and I won in December 2023. 
 
 She works on climate adaptation barriers and solutions at local level with a particular focus on Scotland. 
+:::
+
+::::
+
+
+
+
+
+
+
 
 :::
