@@ -16,17 +16,19 @@ $rose: #c27e97;
 $darkblue: #00008B;
 $darkgreen: #006400;
 $lavender: #E6E6FA;
-
-
+$purplefog: #4e4e63;
+$olivegreen: #648064;
+$othergreen: #599174;
+$eggtoast: #ffc920;
 
 // Base document colors
-$navbar-bg: $darkgreen; // navbar
+$navbar-bg: $purplefog; // navbar
 $navbar-fg: $cream; // navbar foreground elements
-$navbar-hl: $rose; // highlight color when hovering over navbar links
+$navbar-hl: $othergreen; // highlight color when hovering over navbar links
 $body-bg: $cream; // page background 
 $body-color: $darkgray; // page text 
 $footer-bg: $lightgray; // footer 
-$link-color: $rose; // hyperlinks 
+$link-color: $othergreen; // hyperlinks 
 
 // Inline code
 $code-bg: $lightgray; // inline code background color
@@ -40,22 +42,22 @@ h1 {
 }
 
 h2 {
-  color: $darkgray;
+  color: $eggtoast;
 }
 
 h3 {
-  color: $darkblue;
+  color: $purplefog;
 }
 
 h4 {
-  color: $darkblue;
+  color: $othergreen;
 }
 
 div.quarto-about-trestles .about-entity .about-link {
-    color: #E6E6FA !important;
-    text-decoration: #00008B;
-    border: #00008B;
-    background-color: #c27e97;
+    color: #fcf9f4 !important;
+    text-decoration: #fcf9f4;
+    border: #fcf9f4;
+    background-color: #599174;
 }
 
 
@@ -82,13 +84,13 @@ h1.title, .title.h1 {
 }
 
 .panel-tabset .nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
-    color: #00008B;
-    background-color: #E6E6FA;
-    border-color: #00008B #00008B transparent;
+    color: #4e4e63;
+    background-color: #ffc920;
+    border-color: #4e4e63 #4e4e63 transparent;
 }
 
 .panel-tabset .nav-tabs .nav-link:hover, .nav-tabs .nav-link:focus {
-    border-color: #00008B #00008B transparent;
+    border-color: #4e4e63 #4e4e63 transparent;
     isolation: isolate;
 }
 

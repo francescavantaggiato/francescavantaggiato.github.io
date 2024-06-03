@@ -26,10 +26,29 @@ listing:
     categories: true
     type: default
 page-layout: full
-title-block-banner: "#d0d2ff"
+title-block-banner: "#f1c40f"
 include-back-link: false
 toc-location: right
 ---
+
+<style>
+
+title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 80px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}
+
+</style>
+
 
 My research agenda comprises three main strands:
 

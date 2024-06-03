@@ -20,10 +20,27 @@ listing:
     categories: false
     type: default
 page-layout: full
-title-block-banner: "#d0d2ff"
+title-block-banner: "#f1c40f"
 include-back-link: false
 toc-location: right
 ---
+<style>
+
+title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 80px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}
+
+</style>
 
 In the past few years, I have been working on projects dealing with climate change adaptation. These projects have resulted in policy reports aimed at practitioners, who were also often involved in the design of the research. The common theme of these projects is the interplay between climate risks and the policy and political implications of adaptation, the decisions to be made and how those affect the existing balance between winners and losers.
 

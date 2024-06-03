@@ -1,7 +1,7 @@
 ---
 title: "Supervision"
 page-layout: full
-title-block-banner: "#d0d2ff"
+title-block-banner: "#f1c40f"
 include-back-link: false
 format: 
   html:
@@ -15,6 +15,24 @@ include-in-header:
           }
           </style>
 ---
+
+<style>
+
+title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 80px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}
+
+</style>
 
 I am interested in supervising doctoral and post-doctoral students who want to work on the politics of public policy, regulation, climate adaptation, or environmental governance using quantitative or mixed methods approaches.  
 

@@ -2,12 +2,29 @@
 title: Curriculum vitæ
 description-meta: "Francesca Vantaggiato's CV"
 date: 2024-05-19
-title-block-banner: "#d0d2ff"
+title-block-banner: "#f1c40f"
 published-title: CV last updated
 engine: knitr 
 cv:
   pdf: "fpv_CV.pdf"
 ---
+<style>
+
+title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 80px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}
+
+</style>
 
 ```{css echo=FALSE}
 .embed-container {
