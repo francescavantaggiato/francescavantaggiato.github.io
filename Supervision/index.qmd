@@ -1,7 +1,7 @@
 ---
 title: "Supervision"
 page-layout: full
-title-block-banner: "#E6E6FA"
+title-block-banner: "#949799"
 include-back-link: false
 format: 
   html:
