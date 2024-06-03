@@ -20,7 +20,7 @@ listing:
     categories: false
     type: default
 page-layout: full
-title-block-banner: "#949799"
+title-block-banner: "#d0d2ff"
 include-back-link: false
 toc-location: right
 ---

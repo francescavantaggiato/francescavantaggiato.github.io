@@ -26,7 +26,7 @@ listing:
     categories: true
     type: default
 page-layout: full
-title-block-banner: "#E6E6FA"
+title-block-banner: "#d0d2ff"
 include-back-link: false
 toc-location: right
 ---

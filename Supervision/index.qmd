@@ -1,7 +1,7 @@
 ---
 title: "Supervision"
 page-layout: full
-title-block-banner: "#949799"
+title-block-banner: "#d0d2ff"
 include-back-link: false
 format: 
   html:
@@ -25,6 +25,7 @@ Below are the profiles of the doctoral and post-doctoral students I currently su
 :::: {.columns}
 
 ::: {.column width="30%"}
+
 ### As primary supervisor
 
 ---------------------------
@@ -60,7 +61,9 @@ Her dissertation focuses on resilience in the context of flood risk management i
 William's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2024-2027.
 
 William's dissertation will focus on the evolution of transportation policy in the UK from the privatizations of the 1980s till the present day, and their effect on social mobility.
+
 :::
+
 
 ::: {.column width="5%"}
 <!-- empty column to create gap -->
