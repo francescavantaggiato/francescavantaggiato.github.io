@@ -54,6 +54,9 @@ Santiago's doctoral studies are funded by a London Interdisciplinary Social Scie
 
 His dissertation investigates the effects of political patronage on environmental governance networks in the public sector in Colombia.
 
+[Santiago's personal website](https://squinterosuarez.com/)
+
+
 ---------------------------
 
 **Yuetong Guo**
@@ -62,6 +65,7 @@ Yuetong's joined King's as a PhD student in 2022.
 
 Her dissertation focuses on the impact of inter-institutional relationships between the Council, the Parliament and the Commission on the EU's stance on global climate issues.
 
+[Yuetong's webpage](https://www.kcl.ac.uk/people/yuetong-guo)
 
 ---------------------------
 
@@ -72,6 +76,8 @@ Anna's doctoral studies are funded by a LISS-DTP CASE studentship we obtained in
 
 Her dissertation focuses on resilience in the context of flood risk management in England: how to define and measure it, and what are the implications of different approaches.
 
+[Anna's webpage](https://www.kcl.ac.uk/people/anna-goodden)
+
 ---------------------------
 
 **William Edmonds**
@@ -80,8 +86,9 @@ William's doctoral studies are funded by a London Interdisciplinary Social Scien
 
 William's dissertation will focus on the evolution of transportation policy in the UK from the privatizations of the 1980s till the present day, and their effect on social mobility.
 
-:::
+[Will's webpage](https://www.kcl.ac.uk/people/will-edmonds)
 
+:::
 
 ::: {.column width="5%"}
 <!-- empty column to create gap -->
@@ -115,6 +122,8 @@ His dissertation focuses on the politics of regulating digital markets and data 
 Emma joined King's in March 2024 as a post-doctoral researcher funded by a King's Climate & Sustainability Seed Grant that [James Porter](https://www.kcl.ac.uk/people/james-porter) and I won in December 2023. 
 
 She works on climate adaptation barriers and solutions at local level with a particular focus on Scotland. 
+
+[Emma's Google Scholar page](https://scholar.google.com/citations?user=0cU_xl0AAAAJ&hl=en)
 :::
 
 ::::

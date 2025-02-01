@@ -1,6 +1,6 @@
 ---
 title: "Intraorganizational mobility and employees’ work-related contact patterns: evidence from panel data in the European Commission" 
-subtitle: "2021, *Journal of Public Administration Research and Theory*"
+subtitle: "2024, *Journal of Public Administration Research and Theory*"
 date: 2024-10-01
 date-format: "MMMM, YYYY"
 author:

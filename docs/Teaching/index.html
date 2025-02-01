@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.553">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Francesca Pia Vantaggiato - Teaching</title>
+<title>Teaching – Francesca Pia Vantaggiato</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -92,7 +92,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -144,7 +144,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -211,7 +211,7 @@ title-block-header {
 <ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true">Environmental policy and governance</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false">Comparative Public Policy</a></li></ul>
 <div class="tab-content">
 <div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
-<p>The 3rd year undergraduate <strong>Environmental Governance</strong> module I teach at King’s has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power &amp; justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of environmental governance processes and the political economy of making decisions to face the consequences of a changing climate. The key takeaway of this module is that the notion of ‘leaving the politics at the door’ is wishful thinking when discussing environmental problems and solutions, no matter how well-intentioned those who utter it may be. Soon in its fourth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year and here is a little plot to show that.</p>
+<p>The 3rd year undergraduate <strong>Environmental Governance</strong> module I teach at King’s has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power &amp; justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of environmental governance processes and the political economy of making decisions to face the consequences of a changing climate. The key takeaway of this module is that the notion of ‘leaving the politics at the door’ is wishful thinking when discussing environmental problems and solutions. Now in its fifth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year as shown in the plot below.</p>
 <div class="cell" data-layout-align="center">
 <div class="cell-output-display">
 <div class="quarto-figure quarto-figure-center">
@@ -228,7 +228,7 @@ title-block-header {
 <p>The MA level <strong>Climate policy and the energy transition</strong> module I co-convene with <a href="https://scholar.google.com/citations?user=1ZMuxKEAAAAJ&amp;hl=en">Tomas Maltby</a> at King’s is a policy-focused module stemming from the realization that climate policy and energy policy are becoming the same policy topic. It was offered for the first time in 2023/2024.</p>
 </div>
 <div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
-<p>The MA module in <strong>Comparative Public Policy</strong> is of the two compulsory modules in the <a href="https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma">MA Public Policy</a> at the Department of Political Economy at King’s. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 70 students.</p>
+<p>The MA module in <strong>Comparative Public Policy</strong> is of the two compulsory modules in the <a href="https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma">MA Public Policy</a> at the Department of Political Economy at King’s. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 80 students.</p>
 </div>
 </div>
 </div>
@@ -271,18 +271,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -314,7 +303,29 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
       var filterRegex = new RegExp('/' + window.location.host + '/');
@@ -322,7 +333,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
     // Inspect non-navigation links and adorn them if external
- 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
     for (var i=0; i<links.length; i++) {
       const link = links[i];
       if (!isInternal(link.href)) {

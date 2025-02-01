@@ -22,8 +22,9 @@ website:
       - icon: github
         href: https://github.com/francescavantaggiato
         aria-label: GitHub
-      - icon: twitter
-        href: https://twitter.com/FPVantaggiato
+      - text: "{{< iconify fa6-brands:bluesky size=1.1em title='Bluesky'>}}"
+        aria-label: Bluesky
+        href: https://bsky.app/profile/fpvantaggiato.bsky.social
       - icon: linkedin
         href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
 #https://www.r-bloggers.com/2022/07/academicons-my-first-quarto-extension/
