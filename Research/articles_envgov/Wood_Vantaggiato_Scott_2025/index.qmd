@@ -1,0 +1,48 @@
+---
+title: "Tracing the path of knowledge on ‘environmental governance processes’ for theory-building."
+subtitle: "2025, *Environmental Policy & Governance*"
+date: 2025-01-20
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Liza Wood
+    url: liza-wood.github.io
+    affiliation: Environment and Sustainability Institute, University of Exeter, United Kingdom
+  - name: Francesca Pia Vantaggiato
+    url: francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+  - name: Tyler Scott
+    url: https://environmentalpolicy.ucdavis.edu/
+    affiliation: Department of Environmental Science & Policy, University of California Davis, United States
+categories: 
+  - environmental governance
+  - network analysis
+  - literature review
+---
+
+### Abstract
+
+The vast range of environmental governance case studies make one thing clear: social processes are at the heart of environmental problems—and solutions. But fragmentation in how different contributions define and study environmental governance processes prevents us from drawing lessons from the field. What is the extent of knowledge cumulation in the field, and what gaps remain unfilled in this literature? We address these questions by analyzing the bibliometric citation network of English language academic research focused on environmental governance processes. We identify eight clusters of research, where four highly-cited 'poles' stand out: 1) social-ecological systems, 2) collaborative governance, 3) global environmental governance and 4) political ecology. We identify four organizing concepts that are common to all clusters (scale, the importance of social outcomes, consideration of the environment, and the role of government), but with limited shared understandings of them.  The field is wider than it is deep, limiting our ability to narrow down on a few overarching theoretical statements. We argue that environmental governance needs to link up with the environmental politics literature to be able address two important roadblocks in environmental governance processes: power asymmetries and trade-offs of environmental decisions.
+
+### Key figure from the paper
+
+![Figure 3: Clusters of environmental governance process literature](clusters.png)
+
+### Citation
+
+``` bibtex
+@article{EPG25,
+    author = {Liza Wood and Francesca Pia Vantaggiato and Tyler Scott},
+    title = {Tracing the path of knowledge on ‘environmental governance processes’ for theory-building.},
+    journal = {Environmental Policy \& Governance},
+    volume = {Accepted},
+    number = {},
+    pages = {},
+    date  = {2025},
+    publisher = {},
+    doi = {},
+    URL = {}
+}
+```
+
+
