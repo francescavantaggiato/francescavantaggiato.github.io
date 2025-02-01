@@ -1,0 +1,53 @@
+---
+title: "Intraorganizational mobility and employees’ work-related contact patterns: evidence from panel data in the European Commission" 
+subtitle: "2021, *Journal of Public Administration Research and Theory*"
+date: 2024-10-01
+date-format: "MMMM, YYYY"
+author:
+    - name: Francesca Pia Vantaggiato
+      url: https://francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Zuzana Murdoch
+      url: https://www4.uib.no/en/find-employees/Zuzana.Murdoch
+      affiliation: Department of Government, University of Bergen (Norway)
+    - name: Hussein Kassim
+      url: https://warwick.ac.uk/fac/soc/pais/people/kassim/
+      affiliation: Department of Politics and International Studies, University of Warwick (UK)
+    - name: Francesca Pia Vantaggiato
+      url: https://francescavantaggiato.github.io
+      affiliation: Department of Political Economy, King's College London (UK)
+    - name: Sara Connolly
+      url: https://le.ac.uk/people/sara-connolly
+      affiliation: Business School, University of Leicester (UK)
+categories: 
+  - European Commission
+  - networks
+---
+
+### Abstract
+
+Programs to encourage staff to move within public-sector organizations have become increasingly widespread in recent decades. Yet, although there are some anecdotal accounts, the effects of such intraorganizational mobility remain largely unexplored. Building on insights from organization theory and social psychology, we argue that intraorganizational mobility entails an important trade-off: it undermines movers’ depth of work-related contacts within the (new) department, while it increases the breadth of their work-related contacts outside it. Our empirical analysis evaluates this trade-off using a two-way fixed effects model for a longitudinal dataset of movers (N = 149) and stayers (N = 473) across two survey waves among European Commission officials in 2014 and 2018. Our main findings confirm that intraorganizational mobility is connected in opposing ways to employees’ intra- and extra-departmental work-related contact patterns. In line with theoretical expectations, we find these relationships to be stronger for employees who have previously experienced intraorganizational moves (“repeat-movers”).
+
+### Key figures in the paper
+
+![Figure 1: Distribution of staff bu number of contacts](m_muae014_fig1.jpeg)
+
+### Citation
+
+``` bibtex
+
+@article{10.1093/jopart/muae014,
+	author = {Vantaggiato, Francesca P and Murdoch, Zuzana and Kassim, Hussein and Geys, Benny and Connolly, Sara},
+	doi = {10.1093/jopart/muae014},
+	eprint = {https://academic.oup.com/jpart/article-pdf/34/4/598/59597449/muae014.pdf},
+	issn = {1053-1858},
+	journal = {Journal of Public Administration Research and Theory},
+	month = {07},
+	number = {4},
+	pages = {598-610},
+	title = {Intraorganizational mobility and employees' work-related contact patterns: evidence from panel data in the European Commission},
+	url = {https://doi.org/10.1093/jopart/muae014},
+	volume = {34},
+	year = {2024},
+	bdsk-url-1 = {https://doi.org/10.1093/jopart/muae014}}
+```
