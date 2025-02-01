@@ -5,7 +5,7 @@ date: 2019-10-03
 date-format: "MMMM, YYYY"
 author:
     - name: Francesca Pia Vantaggiato
-      url: francescavantaggiato.github.io
+      url: https://francescavantaggiato.github.io
       affiliation: Department of Political Economy, King's College London (UK)
 categories: 
   - regulatory agencies

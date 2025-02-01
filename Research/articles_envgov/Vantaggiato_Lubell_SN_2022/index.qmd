@@ -6,7 +6,7 @@ date-format: "MMMM, YYYY"
 title-block-banner: false
 author:
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
   - name: Mark Lubell
     url: https://environmentalpolicy.ucdavis.edu/
@@ -34,8 +34,11 @@ Climate change governance networks help actors overcome collective action proble
 	date-modified = {2022-09-30 11:40:23 +0100},
 	journal = {Social Networks},
 	title = {Functional differentiation in governance networks for sea level rise adaptation in the San Francisco Bay Area.},
-	volume = {Early View},
-	year = {2022}}
+	volume = {75},
+	pages = {16-28},
+	year = {2023},
+	doi = {https://doi.org/10.1016/j.socnet.2022.02.010}
+	URL = {https://www.sciencedirect.com/science/article/pii/S0378873322000326}}
 ```
 
 

@@ -45,8 +45,7 @@ Sea level rise is one of the most pressing climate adaptation issues around the 
   number = {102654},
   pages = {},
   date  = {2023},
-  publisher = {},
-  doi = {},
-  URL = {}
+  doi = {10.1016/j.gloenvcha.2023.102654},
+  URL = {https://www.sciencedirect.com/science/article/pii/S0959378023000201}
 }
 ```

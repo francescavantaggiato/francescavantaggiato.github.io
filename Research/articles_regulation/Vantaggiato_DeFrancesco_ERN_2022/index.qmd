@@ -5,7 +5,7 @@ date: 2022-12-01
 date-format: "MMMM, YYYY"
 author:
     - name: Francesca Pia Vantaggiato
-      url: francescavantaggiato.github.io
+      url: https://francescavantaggiato.github.io
       affiliation: Department of Political Economy, King's College London (UK)
     - name: Fabrizio De Francesco
       affiliation: University of Strathclyde, Glasgow (UK)

@@ -6,10 +6,10 @@ date-format: "MMMM, YYYY"
 title-block-banner: false
 author:
   - name: Liza Wood
-    url: liza-wood.github.io
+    url: https://liza-wood.github.io
     affiliation: Environment and Sustainability Institute, University of Exeter, United Kingdom
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
   - name: Tyler Scott
     url: https://environmentalpolicy.ucdavis.edu/

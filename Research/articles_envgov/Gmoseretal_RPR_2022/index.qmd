@@ -15,7 +15,7 @@ author:
     url: https://environmentalpolicy.ucdavis.edu/
     affiliation: Department of Environmental Science & Policy, University of California Davis, United States
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
 categories: 
   - climate adaptation
@@ -36,14 +36,13 @@ Sea-level rise is a "nascent subsystem" with policy actors actively developing i
 ``` bibtex
 @article{RPR22,
     author = {Kyra Gmoser-Daskalakis and Tyler Scott and Mark Lubell and Francesca Pia Vantaggiato},
-    title = {At Item Response Approach to Sea Level Rise Policy Preferences in a Nascent Subsystem.},
+    title = {An Item Response Approach to Sea Level Rise Policy Preferences in a Nascent Subsystem.},
     journal = {Review of Policy Research},
-    volume = {Accepted/In press},
+    volume = {40},
     number = {},
-    pages = {},
+    pages = {972-1003},
     date  = {2022},
-    publisher = {},
-    doi = {},
-    URL = {}
+    doi = {https://doi.org/10.1111/ropr.12520},
+    URL = {https://onlinelibrary.wiley.com/doi/abs/10.1111/ropr.12520}
 }
 ```

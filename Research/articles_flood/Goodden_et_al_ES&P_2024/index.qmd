@@ -12,7 +12,7 @@ author:
     url: https://www.kcl.ac.uk/people/james-porter
     affiliation: Department of Geography, King's College London
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
 categories: 
   - flood risk management
@@ -39,8 +39,7 @@ Not only has the frequency and severity of flooding increased under climate chan
     number = {103781},
     pages = {},
     date  = {2024},
-    publisher = {},
-    doi = {},
-    URL = {}
+    doi = {https://doi.org/10.1016/j.envsci.2024.103781},
+    URL = {https://www.sciencedirect.com/science/article/pii/S1462901124001151}
 }
 ```

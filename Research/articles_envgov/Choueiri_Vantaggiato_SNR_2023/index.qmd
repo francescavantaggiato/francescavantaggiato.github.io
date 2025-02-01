@@ -9,7 +9,7 @@ author:
     url: https://environmentalpolicy.ucdavis.edu/
     affiliation: Department of Environmental Science & Policy, University of California Davis, United States
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
 categories: 
   - water scarcity
@@ -32,12 +32,11 @@ Areas with chronic water shortages rely on informal water tankers for daily wate
     author = {Yasmina Choueiri and Francesca Pia Vantaggiato},
     title = {Informal water tankers, their network structure, and drivers of cooperation and competition: a case study in Beirut, Lebanon.},
     journal = {Society & Natural Resources},
-    volume = {In press},
-    number = {},
-    pages = {},
+    volume = {36},
+    number = {12},
+    pages = {1530-1550},
     date  = {2023},
-    publisher = {},
-    doi = {},
-    URL = {}
+    doi = {https://doi.org/10.1080/08941920.2023.2246028},
+    URL = {https://www.tandfonline.com/doi/full/10.1080/08941920.2023.2246028?scroll=top&needAccess=true}
 }
 ```

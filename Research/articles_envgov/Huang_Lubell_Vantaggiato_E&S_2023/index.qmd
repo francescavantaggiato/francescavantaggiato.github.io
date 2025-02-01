@@ -12,7 +12,7 @@ author:
     url: https://environmentalpolicy.ucdavis.edu/
     affiliation: Department of Environmental Science & Policy, University of California Davis, United States
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
 categories:
   - climate adaptation
@@ -40,8 +40,7 @@ Research on collaborative governance, polycentric governance, and policy network
   number = {4},
   pages = {},
   date  = {2023},
-  publisher = {},
-  doi = {},
-  URL = {}
+  doi = {https://doi.org/10.5751/ES-14403-280430},
+  URL = {https://ecologyandsociety.org/vol28/iss4/art30/}
 }
 ```

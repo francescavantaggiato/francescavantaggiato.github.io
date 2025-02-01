@@ -5,7 +5,7 @@ date: 2020-10-01
 date-format: "MMMM, YYYY"
 author:
     - name: Francesca Pia Vantaggiato
-      url: francescavantaggiato.github.io
+      url: https://francescavantaggiato.github.io
       affiliation: Department of Political Economy, King's College London (UK)
     - name: Despoina Mantzari
       url: https://www.ucl.ac.uk/laws/people/dr-deni-mantzari

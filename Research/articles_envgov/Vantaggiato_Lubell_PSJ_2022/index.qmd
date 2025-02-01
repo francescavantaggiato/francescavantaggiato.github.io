@@ -6,7 +6,7 @@ date-format: "MMMM, YYYY"
 title-block-banner: false
 author:
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
   - name: Mark Lubell
     url: https://environmentalpolicy.ucdavis.edu/
@@ -37,5 +37,7 @@ Policy forums bring individual actors together to deliberate on specific policy 
     volume = {50},
     number = {4},
     pages = {849-876},
-    year = {2022}}
+    doi = {10.1111/psj.12464},
+    year = {2022},
+    URL = {https://onlinelibrary.wiley.com/doi/abs/10.1111/psj.12464}}
 ```

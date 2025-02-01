@@ -5,7 +5,7 @@ date: 2021-04-03
 date-format: "MMMM, YYYY"
 author:
     - name: Francesca Pia Vantaggiato
-      url: francescavantaggiato.github.io
+      url: https://francescavantaggiato.github.io
       affiliation: Department of Political Economy, King's College London (UK)
     - name: Hussein Kassim
       url: https://research-portal.uea.ac.uk/en/persons/hussein-kassim

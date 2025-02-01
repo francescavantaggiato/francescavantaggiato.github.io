@@ -6,7 +6,7 @@ date-format: "MMMM, YYYY"
 title-block-banner: false
 author:
   - name: Francesca Pia Vantaggiato
-    url: francescavantaggiato.github.io
+    url: https://francescavantaggiato.github.io
     affiliation: Department of Political Economy, King's College London, United Kingdom
   - name: Mark Lubell
     url: https://environmentalpolicy.ucdavis.edu/
@@ -33,9 +33,6 @@ How do polycentric governance systems respond to new collective action problems?
     author = {Francesca Pia Vantaggiato and Mark Lubell},
     journal = {Cambridge Elements in Organizational Responses to Climate Change},
     title = {Governing climate adaptation: easier said than done. Sea level rise in the San Francisco Bay Area.},
-    volume = {},
-    number = {},
-    pages = {},
     publisher = {Cambridge University Press},
     year = {2024}}
 ```
