@@ -23,11 +23,11 @@ Below are the profiles of the doctoral students I currently supervise, listed in
 
 <!--  https://stackoverflow.com/questions/74162212/two-columns-layout-in-quarto -->
 
+### Current PhD students
+
 :::: {.columns}
 
-::: {.column width="30%"}
-
-### As primary supervisor
+::: {.column width="47%"}
 
 ---------------------------
 
@@ -41,6 +41,23 @@ Her dissertation focuses on the impact of inter-institutional relationships betw
 
 ---------------------------
 
+**Matteo Nebbiai**
+
+Matteo's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2022-2025. 
+
+His dissertation focuses on the politics of regulating digital markets and data privacy in the EU.
+
+[Matteo's personal website](https://www.matteonebbiai.site/)
+
+:::
+
+::: {.column width="6%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="47%"}
+
+---------------------------
 
 **Anna Goodden**
 
@@ -62,30 +79,13 @@ William's dissertation will focus on the evolution of transportation policy in t
 
 :::
 
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
+::::
 
-::: {.column width="30%"}
-### As secondary supervisor
-
----------------------------
-
-**Matteo Nebbiai**
-
-Matteo's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2022-2025. 
-
-His dissertation focuses on the politics of regulating digital markets and data privacy in the EU.
-[Matteo's personal website](https://www.matteonebbiai.site/)
-
-:::
-
-::: {.column width="5%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="30%"}
 ### Former students & post-docs
+
+:::: {.columns}
+
+::: {.column width="47%"}
 
 ---------------------------
 
@@ -97,6 +97,14 @@ He is now a Research Fellow in the Department of Social Policy at the London Sch
 
 [Santiago's personal website](https://squinterosuarez.com/)
 
+:::
+
+::: {.column width="6%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="47%"}
+
 ---------------------------
 
 **Emma Yule**
@@ -106,6 +114,7 @@ Emma joined King's in March 2024 as a post-doctoral researcher funded by a King'
 She is now at [Verture](https://www.verture.scot/) (formerly Sniffer), Scotland.
 
 [Emma's Google Scholar page](https://scholar.google.com/citations?user=0cU_xl0AAAAJ&hl=en)
+
 :::
 
 ::::

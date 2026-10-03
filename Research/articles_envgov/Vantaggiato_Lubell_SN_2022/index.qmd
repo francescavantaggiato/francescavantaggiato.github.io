@@ -1,7 +1,7 @@
 ---
 title: "Functional differentiation in governance networks for sea level rise adaptation in the San Francisco Bay Area."
-subtitle: "2022, *Social Networks*"
-date: 2022-02-21
+subtitle: "2023, *Social Networks*"
+date: 2023-10-01
 date-format: "MMMM, YYYY"
 title-block-banner: false
 author:

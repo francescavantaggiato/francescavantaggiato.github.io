@@ -43,7 +43,3 @@ My research is published or is forthcoming in the *Public Administration Review*
 
 All my journal articles are on the [Publications](Publications/index.qmd) page.
 
-## News
-
--   **2026** -- Visiting Professor at the University of Macerata (April) and the University of Bari (spring 2025 and 2026).
--   **February 2026** -- Keynote at the University of Oxford.
