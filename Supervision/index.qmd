@@ -16,27 +16,10 @@ include-in-header:
           </style>
 ---
 
-<style>
-
-title-block-header {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -1px;
-  height: 80px;
-}
-
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -20px;
-  height: 85%;
-}
-
-</style>
 
 I am interested in supervising doctoral and post-doctoral students who want to work on the politics of public policy, regulation, climate adaptation, or environmental governance using quantitative or mixed methods approaches.  
 
-Below are the profiles of the doctoral and post-doctoral students I currently supervise, listed in order of seniority.
+Below are the profiles of the doctoral students I currently supervise, listed in order of seniority, followed by former students and post-docs.
 
 <!--  https://stackoverflow.com/questions/74162212/two-columns-layout-in-quarto -->
 
@@ -48,20 +31,9 @@ Below are the profiles of the doctoral and post-doctoral students I currently su
 
 ---------------------------
 
-**Santiago Quintero**
-
-Santiago's doctoral studies are funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship for 2021-2024. 
-
-His dissertation investigates the effects of political patronage on environmental governance networks in the public sector in Colombia.
-
-[Santiago's personal website](https://squinterosuarez.com/)
-
-
----------------------------
-
 **Yuetong Guo**
 
-Yuetong's joined King's as a PhD student in 2022. 
+Yuetong joined King's as a PhD student in 2022. 
 
 Her dissertation focuses on the impact of inter-institutional relationships between the Council, the Parliament and the Commission on the EU's stance on global climate issues.
 
@@ -113,26 +85,27 @@ His dissertation focuses on the politics of regulating digital markets and data 
 :::
 
 ::: {.column width="30%"}
-### Post-docs
+### Former students & post-docs
 
 ---------------------------
 
-**Emma Yule** 
+**Santiago Quintero**
 
-Emma joined King's in March 2024 as a post-doctoral researcher funded by a King's Climate & Sustainability Seed Grant that [James Porter](https://www.kcl.ac.uk/people/james-porter) and I won in December 2023. 
+Santiago's doctoral studies were funded by a London Interdisciplinary Social Science Doctoral Training Partnership (LISS-DTP) scholarship. His dissertation investigated the effects of political patronage on environmental governance networks in the public sector in Colombia.
 
-She works on climate adaptation barriers and solutions at local level with a particular focus on Scotland. 
+He is now a Research Fellow in the Department of Social Policy at the London School of Economics.
+
+[Santiago's personal website](https://squinterosuarez.com/)
+
+---------------------------
+
+**Emma Yule**
+
+Emma joined King's in March 2024 as a post-doctoral researcher funded by a King's Climate & Sustainability Seed Grant that [James Porter](https://www.kcl.ac.uk/people/james-porter) and I won in December 2023. She worked on climate adaptation barriers and solutions at local level with a particular focus on Scotland.
+
+She is now at [Verture](https://www.verture.scot/) (formerly Sniffer), Scotland.
 
 [Emma's Google Scholar page](https://scholar.google.com/citations?user=0cU_xl0AAAAJ&hl=en)
 :::
 
 ::::
-
-
-
-
-
-
-
-
-:::

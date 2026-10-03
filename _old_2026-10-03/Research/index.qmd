@@ -1,0 +1,90 @@
+---
+title: "Research & Publications"
+listing:
+  - id: articles_flood
+    contents: "articles_flood/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+  - id: articles_envgov
+    contents: "articles_envgov/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+  - id: articles_regulation
+    contents: "articles_regulation/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+  - id: articles_eu
+    contents: "articles_eu/*/index.qmd"
+    sort: "date desc"
+    date-format: "MMMM, YYYY"
+    categories: true
+    type: default
+page-layout: full
+title-block-banner: "#f1c40f"
+include-back-link: false
+toc-location: right
+---
+
+<style>
+
+title-block-header {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -1px;
+  height: 80px;
+}
+
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}
+
+</style>
+
+
+My research agenda comprises three main strands:
+
+-   **environmental policy & governance**, where I study how policy actors address collective action problems of learning, cooperation and bargaining over costs and benefits of climate adaptation;
+-   **regulation**, where I have studied how regulators collaborate to influence the policy agenda; and
+-   **European Union institutions**, where I study the behaviour of European bureaucrats within their institutions.
+
+The tabs below list only some key recent publications in each of these fields. For a full list of my publications, see my CV in the CV tab.
+
+
+::: panel-tabset
+### Climate adaptation & floods
+
+This is my most recently developed and currently core research agenda. I study planning and spending for flood risk management in England and its interplay with climate adaptation. A lot of this research is done in collaboration with [James Porter](https://www.kcl.ac.uk/people/james-porter), who is based at the Department of Geography, King's College London.
+
+::: {#articles_flood}
+:::
+
+### Environmental governance
+
+Here I study how policy actors (who may or may not deal with environmental problems as part of their job) come together to address an environmental issue that they all want to see addressed, but none can resolve on their own. My research in this area is shaped by the collaboration with Prof Mark Lubell (University of California, Davis) at the [Center for Environmental Policy and Behavior](https://environmentalpolicy.ucdavis.edu/) (CEPB), and is focused on how polycentric governance systems respond to new collective action problems.
+
+::: {#articles_envgov}
+:::
+
+### Regulation
+
+I started being interested in regulation and regulators before starting my PhD, while working as a research assistant at the Florence School of Regulation of the European University Institute (EUI) in Florence. Based on that experience, I decided to write a PhD dissertation on why and how regulators create informal networks. Several publications have resulted from that dissertation. Alongside my PhD, I did some research on how regulatory agencies use expertise in their decision-making depending on how politicised they are.
+
+::: {#articles_regulation}
+:::
+
+### European Union institutions
+
+During my doctoral studies, I became involved in a series of projects on the European institutions led by one of my supervisors, Prof. Hussein Kassim, and others. That involvement has led to publications focused on EU bureaucrats and their behaviour within their organisations.
+
+::: {#articles_eu}
+:::
+:::

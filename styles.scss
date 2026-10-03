@@ -136,3 +136,11 @@ h1.title, .title.h1 {
             flex: 1 1 33%;
         }
 }
+
+// slimmer yellow title banner on the main pages
+.quarto-title-banner {
+  margin-block-end: 1rem;
+  position: relative;
+  margin-top: -20px;
+  height: 85%;
+}

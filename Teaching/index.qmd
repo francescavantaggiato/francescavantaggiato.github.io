@@ -8,23 +8,6 @@ page-layout: full
 include-back-link: false
 toc-location: right
 ---
-<style>
-
-title-block-header {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -1px;
-  height: 80px;
-}
-
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -20px;
-  height: 85%;
-}
-
-</style>
 At King's, I teach at both undergraduate and graduate levels.
 
 At undergraduate level, I teach:
@@ -42,7 +25,7 @@ In the tabs below I summarize how I go about teaching these things.
 ### Environmental policy and governance
 
 The 3rd year undergraduate **Environmental Governance** module I teach at King's has been the first of its kind (a module on governance, and on the environment) in the Department of Political Economy. The module focuses on the components of environmental governance (scale, collective action, power & justice, science, and actors) and how they interact to produce solutions (or to achieve nothing) in specific cases of environmental governance processes. The module highlights the political nature of environmental governance processes and the political economy of making decisions to face the consequences of a changing climate. The key takeaway of this module is that the notion of 'leaving the politics at the door' is wishful thinking when discussing environmental problems and solutions. 
-Now in its fifth iteration, the module has seen student numbers grow from 25 in 2020/2021 to 133 in 2023/2024 academic year as shown in the plot below.
+Since it was first offered in 2020/2021, student numbers have grown from 25 to a peak of 148 in 2023/2024, as shown in the plot below.
 
 ```{r, fig.height = 4, fig.width = 8, fig.align='center'}
 
@@ -74,7 +57,7 @@ The MA level **Climate policy and the energy transition** module I co-convene wi
 
 ### Comparative Public Policy
 
-The MA module in **Comparative Public Policy** is of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 80 students. 
+The MA module in **Comparative Public Policy** is one of the two compulsory modules in the [MA Public Policy](https://www.kcl.ac.uk/study/postgraduate-taught/courses/public-policy-ma) at the Department of Political Economy at King's. The other compulsory module is titled The Policy Process and precedes this one. The module is conceived to provide an introduction to the study of public policy in comparative perspective, by using the methods of agreement and difference. Each annual cohort typically comprises around 80 students. 
 
 
 :::

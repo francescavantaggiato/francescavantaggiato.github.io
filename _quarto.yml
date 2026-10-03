@@ -8,16 +8,22 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: Research/index.qmd
-        text: Research
+      - text: Research
+        menu:
+          - href: Research/index.qmd
+            text: Research themes
+          - href: Projects/index.qmd
+            text: Projects, grants & reports
+      - href: Publications/index.qmd
+        text: Publications
+      - text: Teaching & Supervision
+        menu:
+          - href: Teaching/index.qmd
+            text: Teaching
+          - href: Supervision/index.qmd
+            text: Supervision
       - href: cv/index.qmd
         text: CV
-      - href: Projects/index.qmd
-        text: Projects
-      - href: Teaching/index.qmd
-        text: Teaching
-      - href: Supervision/index.qmd
-        text: Supervision
     right:
       - icon: github
         href: https://github.com/francescavantaggiato
@@ -34,7 +40,7 @@ website:
 # https://github.com/quarto-ext/fontawesome for the fa icons
   page-footer:
     left: |
-      <span class="faux-block">{{< fa brands creative-commons >}} 2013-2023 Francesca Vantaggiato</span>
+      <span class="faux-block">{{< fa brands creative-commons >}} 2013-2026 Francesca Vantaggiato</span>
     right: |
       <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
       <span class="faux-block">Website design inspired by [Allison Horst](https://allisonhorst.github.io/) and [Andrew Heiss](https://www.andrewheiss.com/)</span>

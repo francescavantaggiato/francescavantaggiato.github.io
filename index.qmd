@@ -11,6 +11,19 @@ about:
       href: mailto:francesca.vantaggiato@kcl.ac.uk
       
 page-layout: full
+toc: false
+listing:
+  id: latest
+  contents: "Research/articles_*/*/index.qmd"
+  sort: "date desc"
+  max-items: 3
+  date-format: "MMMM YYYY"
+  type: table
+  fields: [title, subtitle]
+  field-display-names:
+    subtitle: "Published"
+  sort-ui: false
+  filter-ui: false
 ---
 
 Hello, and welcome to my website. My name is **Francesca Vantaggiato**. I am a Senior Lecturer (Associate Professor) in Public Policy in the [Department of Political Economy](https://www.kcl.ac.uk/people/francesca-pia-vantaggiato) at King's College London (UK).
@@ -21,4 +34,16 @@ At present, my research agenda is focused on **climate adaptation** - one of the
 
 In my research, I typically rely on some mix of social network analysis, interviews, regression and computational social science methods.
 
-My research is published or is forthcoming in the *Journal of Public Administration Research and Theory*, *Policy Studies Journal*, *Journal of Public Policy*, *Journal of European Public Policy*, *Governance*, *Environmental Policy & Governance*, *Global Environmental Change*, among others.
+My research is published or is forthcoming in the *Public Administration Review*, *Journal of Public Administration Research and Theory*, *Policy Studies Journal*, *Journal of Public Policy*, *Journal of European Public Policy*, *Governance*, *Environmental Policy & Governance*, *Global Environmental Change*, among others.
+
+## Latest publications
+
+::: {#latest}
+:::
+
+All my journal articles are on the [Publications](Publications/index.qmd) page.
+
+## News
+
+-   **2026** -- Visiting Professor at the University of Macerata (April) and the University of Bari (spring 2025 and 2026).
+-   **February 2026** -- Keynote at the University of Oxford.

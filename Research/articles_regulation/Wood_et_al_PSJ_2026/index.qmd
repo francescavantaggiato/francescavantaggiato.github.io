@@ -1,0 +1,38 @@
+---
+title: "Compliance in regulatory gray areas: The case of the organic seed standard"
+subtitle: "2026, *Policy Studies Journal*"
+date: 2026-03-16
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Liza Wood
+    url: https://liza-wood.github.io
+    affiliation: Environment and Sustainability Institute, University of Exeter, United Kingdom
+  - name: Jared Zystro
+    affiliation: Organic Seed Alliance, United States
+  - name: Kristina Hubbard
+    affiliation: Organic Seed Alliance, United States
+  - name: Francesca Pia Vantaggiato
+    url: https://francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories:
+  - compliance
+  - adaptive regulation
+  - agriculture
+---
+
+### Abstract
+
+Adaptive regulations, designed to balance flexibility with accountability, can embed provisions that unintentionally leave room for firms to shirk on their responsibilities by exploiting flexibility. We call these provisions "regulatory gray areas," and ask: how should we understand (non-)compliance in adaptive regulatory settings? We examine how the interplay of ability and duty predicts compliance, hypothesizing that higher duty predicts higher compliance, particularly when ability is low. Using longitudinal data from three waves of surveys of certified organic growers in the United States (2010, 2015, and 2020), we investigate (non-)compliance within a gray area of the organic seed standard: an exception wherein growers can use conventional seed if organic varieties are not commercially available. We find that while ability is the strongest predictor of compliance with the standard overall, growers with low ability and high duty towards organic seed integrity display higher compliance than their less dutiful counterparts. These results highlight the dilemma of compliance in adaptive regulation: accommodating different levels of ability while preventing shirking. Policymakers should grapple with regulatory gray areas by regularly updating standards, enhancing data collection, and implementing graduated enforcement to balance flexibility and accountability.
+
+### Citation
+
+``` bibtex
+@article{PSJ26,
+    author = {Liza Wood and Jared Zystro and Kristina Hubbard and Francesca Pia Vantaggiato},
+    title = {Compliance in regulatory gray areas: The case of the organic seed standard},
+    journal = {Policy Studies Journal},
+    year = {2026},
+    doi = {10.1111/psj.70108}
+}
+```

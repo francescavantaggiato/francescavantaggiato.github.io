@@ -1,0 +1,43 @@
+---
+title: "Publications"
+title-block-banner: "#f1c40f"
+page-layout: full
+include-back-link: false
+toc-location: right
+engine: knitr
+execute:
+  echo: false
+  warning: false
+---
+
+Book chapters and policy reports are listed in my [CV](../cv/index.qmd). For abstracts and key figures, see the papers listed by theme on the [Research](../Research/index.qmd) page.
+
+## Book
+
+Vantaggiato, Francesca Pia and Lubell, Mark. 2024. [**Governing climate adaptation: sea level rise in the San Francisco Bay Area**](../Research/articles_envgov/Vantaggiato_Lubell_2024/index.qmd). *Cambridge Elements in Organizational Responses to Climate Change*. Cambridge University Press.
+
+## Journal articles
+
+```{r}
+# Journal articles from the CV's biblatex file (allarticles.bib), newest first, grouped by year.
+# To update: download allarticles.bib from Overleaf into the project root and re-render.
+library(RefManageR)
+library(dplyr)
+
+clean <- function(x) gsub("[{}]|\\.$", "", gsub("\\\\&", "&", gsub("--", "–", x)))
+
+pubs <- as.data.frame(ReadBib("../allarticles.bib", check = FALSE)) |>
+  mutate(year = coalesce(year, substr(date, 1, 4)),
+         doi = sub("https://doi.org/", "", doi),
+         author = gsub(" and ", ", ", sub("Francesca Pia Vantaggiato", "**Francesca Pia Vantaggiato**", author)),
+         details = ifelse(is.na(pages) | pages == "", volume, paste0(volume, ", ", clean(pages)))) |>
+  arrange(desc(year))
+
+entries <- with(pubs, paste0(
+  author, ". ", year, ". ", clean(title), ". *", clean(journal), "* ", details,
+  ifelse(is.na(doi) | doi == "", "", paste0(". [doi:", doi, "](https://doi.org/", doi, ")"))))
+
+by_year <- rev(split(entries, pubs$year))
+knitr::asis_output(paste0("### ", names(by_year), "\n\n",
+                          sapply(by_year, paste0, collapse = "\n\n"), collapse = "\n\n"))
+```

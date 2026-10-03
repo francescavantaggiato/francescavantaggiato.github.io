@@ -1,0 +1,42 @@
+---
+title: "Turning points in climate change adaptation: Storytelling and co-producing visions and pathways for creating well-adapted places"
+subtitle: "2026, *PLOS Climate*"
+date: 2026-09-21
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Emma L. Yule
+    url: https://scholar.google.com/citations?user=0cU_xl0AAAAJ&hl=en
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+  - name: Joana Avi-Lorie
+  - name: Pamela Candea
+  - name: James Porter
+    url: https://www.kcl.ac.uk/people/james-porter
+    affiliation: Department of Geography, King's College London, United Kingdom
+  - name: Francesca Pia Vantaggiato
+    url: https://francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories:
+  - climate adaptation
+  - adaptation targets
+  - Scotland
+---
+
+### Abstract
+
+Clear adaptation outcomes are essential for driving climate action and assessing progress. However, developing a shared vision of desirable adaptation outcomes and the steps to achieve them requires a shared understanding of what constitutes a well-adapted place and what resources are needed to enable communities to create and implement such visions. The third Scottish National Adaptation Plan (SNAP3) has "communities creating climate resilient places" as a key outcome. Our research draws upon a collaborative workshop that used storytelling techniques to co-produce adaptation visions: developing a shared narrative and identifying 'turning points' to put it into practice. Participants included community groups, public sector, and government officials. Key turning points included shifts in governance structures toward local communities inclusion in developing adaptation visions, consistent knowledge-sharing across scales via dedicated platforms/procedures, and enhanced communication and engagement around adaptation narratives at the local level. Unless these measures are implemented, communities will struggle to create the climate-resilient places envisioned in SNAP3. Our findings indicate that local adaptation targets are perceived as potentially useful drivers of adaptation action, but with limitations to their effectiveness: i.e., adaptation targets risk becoming siloed and failing to integrate broader resilience or community priorities. Our research highlights the positive and negative narratives around local adaptation targets, underscoring the need for continuous monitoring and a cautious, place-based approach to their implementation.
+
+### Citation
+
+``` bibtex
+@article{PLOSC26,
+    author = {Emma L. Yule and Joana Avi-Lorie and Pamela Candea and James Porter and Francesca Pia Vantaggiato},
+    title = {Turning points in climate change adaptation: Storytelling and co-producing visions and pathways for creating well-adapted places},
+    journal = {PLOS Climate},
+    volume = {5},
+    number = {9},
+    pages = {e0001056},
+    year = {2026},
+    doi = {10.1371/journal.pclm.0001056}
+}
+```

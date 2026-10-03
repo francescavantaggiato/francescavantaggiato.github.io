@@ -1,0 +1,37 @@
+---
+title: "Des bureaucraties poreuses ? Les interactions de la Commission européenne et du Secrétariat du Conseil avec leur environnement, et leur influence sur leurs préférences en termes de gouvernance"
+subtitle: "2022, *Revue française d'administration publique*"
+date: 2022-04-21
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Pierre Alayrac
+  - name: Sara Connolly
+  - name: Hussein Kassim
+  - name: Francesca Pia Vantaggiato
+    url: https://francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories:
+  - European Commission
+  - Council Secretariat
+  - bureaucracy
+---
+
+### Abstract
+
+Les institutions européennes et les personnes qui travaillent pour elles sont souvent considérées comme repliées sur elles-mêmes et leurs ambitions : la Commission européenne est dépeinte comme une technocratie distante, et le Secrétariat du Conseil est considéré comme secret et renfermé. Cet article soumet ces hypothèses à un test empirique et va à leur encontre. S'appuyant sur deux jeux de données originaux, il cartographie les pratiques d'interaction avec les acteurs extérieurs pour ces deux parties de l'administration de l'UE. Il montre non seulement que la Commission européenne et le Secrétariat du Conseil sont en contact permanent avec des acteurs extérieurs, mais aussi que leurs préférences en termes de gouvernance sont affectées par ces contacts, quoique dans des mesures différentes.
+
+### Citation
+
+``` bibtex
+@article{RFAP22,
+    author = {Pierre Alayrac and Sara Connolly and Hussein Kassim and Francesca Pia Vantaggiato},
+    title = {Des bureaucraties poreuses ? Les interactions de la Commission européenne et du Secrétariat du Conseil avec leur environnement, et leur influence sur leurs préférences en termes de gouvernance},
+    journal = {Revue française d'administration publique},
+    volume = {181},
+    number = {1},
+    pages = {41-64},
+    year = {2022},
+    doi = {10.3917/rfap.181.0043}
+}
+```

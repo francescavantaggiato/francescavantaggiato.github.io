@@ -1,29 +1,12 @@
 ---
 title: Curriculum vitæ
 description-meta: "Francesca Vantaggiato's CV"
-date: 2025-03-12
+date: 2026-10-03
 title-block-banner: "#f1c40f"
 engine: knitr 
 cv:
   pdf: "cv_fpv.pdf"
 ---
-<style>
-
-title-block-header {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -1px;
-  height: 80px;
-}
-
-.quarto-title-banner {
-  margin-block-end: 1rem;
-  position: relative;
-  margin-top: -20px;
-  height: 85%;
-}
-
-</style>
 
 ```{css echo=FALSE}
 .embed-container {

@@ -1,0 +1,37 @@
+---
+title: "Nascent policy subsystems in polycentric governance networks: The case of sea-level rise governance in the San Francisco Bay Area"
+subtitle: "2024, *Policy Studies Journal*"
+date: 2024-07-15
+date-format: "MMMM, YYYY"
+title-block-banner: false
+author:
+  - name: Tara Pozzi
+  - name: Elise Zufall
+  - name: Kyra Gmoser-Daskalakis
+  - name: Francesca Pia Vantaggiato
+    url: https://francescavantaggiato.github.io
+    affiliation: Department of Political Economy, King's College London, United Kingdom
+categories:
+  - policy subsystems
+  - networks
+  - sea level rise
+---
+
+### Abstract
+
+A policy subsystem is a system of relations between actors within the context of a specific, territorially bounded policy issue. Mature policy subsystems feature well-established, easily distinguishable, confrontational coalitions. Recent literature has explored the behavior of nascent subsystems, which emerge in response to novel policy challenges and feature developing, rather than fully fledged, coalitions. However, as yet, we lack an empirical approach to identify and analyze the structural characteristics of nascent subsystems and assess their implications for theoretical and subsystem development. How do we recognize a nascent policy subsystem when we see one? What are the drivers of its nascent coalitional structure? We answer these questions using social network analysis in the empirical case of the governance network of adaptation to sea-level rise in the San Francisco Bay Area, using original data collected in 2018. We find that the network portrays a nascent subsystem developing out of pre-existing coalitions focused on two facets of environmental advocacy: environmental protection and environmental justice. We conclude with recommendations for future research on policy subsystem development.
+
+### Citation
+
+``` bibtex
+@article{PSJ24,
+    author = {Tara Pozzi and Elise Zufall and Kyra Gmoser-Daskalakis and Francesca Pia Vantaggiato},
+    title = {Nascent policy subsystems in polycentric governance networks: The case of sea-level rise governance in the San Francisco Bay Area},
+    journal = {Policy Studies Journal},
+    volume = {52},
+    number = {3},
+    pages = {561-581},
+    year = {2024},
+    doi = {10.1111/psj.12549}
+}
+```

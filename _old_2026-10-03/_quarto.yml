@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+  
+website: 
+  title: "Francesca Pia Vantaggiato"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: Research/index.qmd
+        text: Research
+      - href: cv/index.qmd
+        text: CV
+      - href: Projects/index.qmd
+        text: Projects
+      - href: Teaching/index.qmd
+        text: Teaching
+      - href: Supervision/index.qmd
+        text: Supervision
+    right:
+      - icon: github
+        href: https://github.com/francescavantaggiato
+        aria-label: GitHub
+      - text: "{{< iconify fa6-brands:bluesky size=1.1em title='Bluesky'>}}"
+        aria-label: Bluesky
+        href: https://bsky.app/profile/fpvantaggiato.bsky.social
+      - icon: linkedin
+        href: https://www.linkedin.com/in/francesca-pia-vantaggiato/
+#https://www.r-bloggers.com/2022/07/academicons-my-first-quarto-extension/
+      - text: "{{< ai orcid color=white size=lg >}}"
+        href: https://orcid.org/0000-0003-1154-4540
+  
+# https://github.com/quarto-ext/fontawesome for the fa icons
+  page-footer:
+    left: |
+      <span class="faux-block">{{< fa brands creative-commons >}} 2013-2023 Francesca Vantaggiato</span>
+    right: |
+      <span class="faux-block">Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)</span>
+      <span class="faux-block">Website design inspired by [Allison Horst](https://allisonhorst.github.io/) and [Andrew Heiss](https://www.andrewheiss.com/)</span>
+      <span class="faux-block">[View the source at {{< fa brands github >}} GitHub](https://github.com/francescavantaggiato/francescavantaggiato.github.io)</span>
+
+format:
+  html:
+    theme: styles.scss
+    toc: true
+    
+    
+editor: source
+

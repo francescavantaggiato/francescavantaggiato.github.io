@@ -36,6 +36,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
@@ -44,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-57f0d15c40fd31f12f1c2c2163303019.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-8ed8d640ece39568dbbcfaf353d42c82.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/all.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/fontawesome6-0.1.0/latex-fontsize.css" rel="stylesheet">
 <script src="site_libs/quarto-contrib/iconify-2.1.0/iconify-icon.min.js"></script>
@@ -77,7 +79,65 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-latest .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-title-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-latest'] = new List('listing-latest', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -102,25 +162,43 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link active" href="./index.html" aria-current="page"> 
 <span class="menu-text">Home</span></a>
   </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Research/index.html"> 
-<span class="menu-text">Research</span></a>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-research" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Research</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-research">    
+        <li>
+    <a class="dropdown-item" href="./Research/index.html">
+ <span class="dropdown-text">Research themes</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="./Projects/index.html">
+ <span class="dropdown-text">Projects, grants &amp; reports</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="./Publications/index.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-teaching--supervision" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Teaching &amp; Supervision</span>
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-teaching--supervision">    
+        <li>
+    <a class="dropdown-item" href="./Teaching/index.html">
+ <span class="dropdown-text">Teaching</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="./Supervision/index.html">
+ <span class="dropdown-text">Supervision</span></a>
+  </li>  
+    </ul>
+  </li>
   <li class="nav-item">
     <a class="nav-link" href="./cv/index.html"> 
 <span class="menu-text">CV</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Projects/index.html"> 
-<span class="menu-text">Projects</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Teaching/index.html"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./Supervision/index.html"> 
-<span class="menu-text">Supervision</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
@@ -175,9 +253,61 @@ ul.task-list li input[type="checkbox"] {
 <p>I study how policy-makers and stakeholders use relationships to grapple with change and uncertainty, particularly for policy issues concerning the environment and infrastructure.</p>
 <p>At present, my research agenda is focused on <strong>climate adaptation</strong> - one of the greatest challenges of our time, with profound social, political and redistributive implications - in the context of <strong>flood risk management</strong> and other climate risks in the UK.</p>
 <p>In my research, I typically rely on some mix of social network analysis, interviews, regression and computational social science methods.</p>
-<p>My research is published or is forthcoming in the <em>Journal of Public Administration Research and Theory</em>, <em>Policy Studies Journal</em>, <em>Journal of Public Policy</em>, <em>Journal of European Public Policy</em>, <em>Governance</em>, <em>Environmental Policy &amp; Governance</em>, <em>Global Environmental Change</em>, among others.</p>
+<p>My research is published or is forthcoming in the <em>Public Administration Review</em>, <em>Journal of Public Administration Research and Theory</em>, <em>Policy Studies Journal</em>, <em>Journal of Public Policy</em>, <em>Journal of European Public Policy</em>, <em>Governance</em>, <em>Environmental Policy &amp; Governance</em>, <em>Global Environmental Change</em>, among others.</p>
+<section id="latest-publications" class="level2">
+<h2 data-anchor-id="latest-publications">Latest publications</h2>
+<div id="listing-latest" class="quarto-listing quarto-listing-container-table">
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Published
+</th>
+</tr>
+</thead>
+<tbody class="list">
+<tr data-index="0" data-categories="Y2xpbWF0ZSUyMGFkYXB0YXRpb24lMkNhZGFwdGF0aW9uJTIwdGFyZ2V0cyUyQ1Njb3RsYW5k" data-listing-date-sort="1789945200000" data-listing-file-modified-sort="1791034165835" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="300" data-listing-title-sort="Turning points in climate change adaptation: Storytelling and co-producing visions and pathways for creating well-adapted places" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./Research/articles_flood/Yule_et_al_PLOSClimate_2026/index.html" class="title listing-title">Turning points in climate change adaptation: Storytelling and co-producing visions and pathways for creating well-adapted places</a>
+</td>
+<td>
+<span class="listing-subtitle">2026, <em>PLOS Climate</em></span>
+</td>
+</tr>
+<tr data-index="1" data-categories="Y2xpbWF0ZSUyMGFkYXB0YXRpb24lMkNjb2xsYWJvcmF0aXZlJTIwZ292ZXJuYW5jZSUyQ3NlYSUyMGxldmVsJTIwcmlzZQ==" data-listing-date-sort="1773705600000" data-listing-file-modified-sort="1791034165720" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="200" data-listing-title-sort="Sea-level rise adaptation and collaboration in polycentric governance: A comparison of three regions" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./Research/articles_envgov/Vantaggiato_et_al_PAR_2026/index.html" class="title listing-title">Sea-level rise adaptation and collaboration in polycentric governance: A comparison of three regions</a>
+</td>
+<td>
+<span class="listing-subtitle">2026, <em>Public Administration Review</em></span>
+</td>
+</tr>
+<tr data-index="2" data-categories="Y29tcGxpYW5jZSUyQ2FkYXB0aXZlJTIwcmVndWxhdGlvbiUyQ2FncmljdWx0dXJl" data-listing-date-sort="1773619200000" data-listing-file-modified-sort="1791034165784" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="244" data-listing-title-sort="Compliance in regulatory gray areas: The case of the organic seed standard" data-listing-filename-sort="index.qmd">
+<td>
+<a href="./Research/articles_regulation/Wood_et_al_PSJ_2026/index.html" class="title listing-title">Compliance in regulatory gray areas: The case of the organic seed standard</a>
+</td>
+<td>
+<span class="listing-subtitle">2026, <em>Policy Studies Journal</em></span>
+</td>
+</tr>
+</tbody>
+</table>
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+<p>All my journal articles are on the <a href="./Publications/index.html">Publications</a> page.</p>
+</section>
+<section id="news" class="level2">
+<h2 data-anchor-id="news">News</h2>
+<ul>
+<li><strong>2026</strong> – Visiting Professor at the University of Macerata (April) and the University of Bari (spring 2025 and 2026).</li>
+<li><strong>February 2026</strong> – Keynote at the University of Oxford.</li>
+</ul>
 
 
+</section>
 </main></div>
 </div>
  <!-- /main -->
@@ -578,7 +708,7 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2013-2023 Francesca Vantaggiato</span></p>
+<p><span class="faux-block"><i class="fa-brands fa-creative-commons" aria-label="creative-commons"></i> 2013-2026 Francesca Vantaggiato</span></p>
 </div>   
     <div class="nav-footer-center">
       &nbsp;

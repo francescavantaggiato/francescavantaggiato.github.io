@@ -1,6 +1,6 @@
 ---
 title: "Regulatory relationships across levels of multilevel governance systems: From collaboration to competition" 
-subtitle: "2019, *Governance*"
+subtitle: "2020, *Governance*"
 date: 2019-04-14
 date-format: "MMMM, YYYY"
 author:

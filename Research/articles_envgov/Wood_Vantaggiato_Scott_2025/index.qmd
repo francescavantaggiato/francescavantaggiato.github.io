@@ -35,13 +35,13 @@ The vast range of environmental governance case studies make one thing clear: so
     author = {Liza Wood and Francesca Pia Vantaggiato and Tyler Scott},
     title = {Tracing the path of knowledge on ‘environmental governance processes’ for theory-building.},
     journal = {Environmental Policy \& Governance},
-    volume = {Accepted},
-    number = {},
-    pages = {},
+    volume = {35},
+    number = {3},
+    pages = {505-524},
     date  = {2025},
     publisher = {},
-    doi = {},
-    URL = {}
+    doi = {10.1002/eet.2151},
+    URL = {https://doi.org/10.1002/eet.2151}
 }
 ```
 
